@@ -4,10 +4,9 @@
 	Author: Appclick;
 	Color: Default - Saffron;
 	Website: http://appclick.in;
-	File : default-style.css : #e44621
+	File : default-style.css : #d81b75
 
 */
-
 
 /*=======================
 	background-color
@@ -19,7 +18,7 @@ blockquote,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
-.prop-detail .nav-tabs>li.active>a,
+.prop-detail .nav-tabs > li.active > a,
 .cottage-nearby ul li i,
 .appointment-page .input-group-addon,
 .pagination > li > a:hover,
@@ -33,54 +32,52 @@ blockquote,
 .top-menu li,
 .contact-us-container,
 .tour .video-section .caption-box {
-    background-color: #e44621 !important;
+    background-color: #d81b75 !important;
 }
 
 @media screen and (max-width: 767px) {
     .dropdown-menu > li.active > a {
-        background-color: #e44621 !important;
+        background-color: #d81b75 !important;
     }
 }
 
 .btn-blue-orange:hover,
 .btn-orange-blue,
 .btn-orange-white {
-    background-color: #e44621;
+    background-color: #d81b75;
 }
-
 
 /*=======================
 	border-color
 ========================*/
 
 .div-title > span {
-    border-bottom: 3px solid #e44621;
+    border-bottom: 3px solid #d81b75;
 }
 
 .appointment-page .input-group-addon {
-    border: 1px solid #e44621;
+    border: 1px solid #d81b75;
 }
 
 .sidebar ul.widget-list li:hover a {
-    border-left: 3px solid #e44621;
+    border-left: 3px solid #d81b75;
 }
 
 hr.section-title-hr {
-    border: 2px solid #e44621;
+    border: 2px solid #d81b75;
 }
 
 .cottage-msgbox a:hover {
-    border: 2px solid #e44621;
+    border: 2px solid #d81b75;
 }
 
 .contact-us-container-2 .contact-us:hover {
-    border: 2px solid #e44621;
+    border: 2px solid #d81b75;
 }
 
 .primary-footer h3 {
-    border-left: 2px solid #e44621;
+    border-left: 2px solid #d81b75;
 }
-
 
 /*=======================
 	font-color
@@ -112,9 +109,9 @@ hr.section-title-hr {
 .tour .caption-box i.fa,
 .footer-agent-contact .footer-agent .info-box i.fa,
 .footer-agent-contact .footer-agent h6 strong {
-    color: #e44621;
+    color: #d81b75;
 }
 
 .gallery-standard li.active a {
-    color: #e44621 !important;
+    color: #d81b75 !important;
 }
