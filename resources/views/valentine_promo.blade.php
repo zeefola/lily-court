@@ -35,12 +35,12 @@
 
 <body>
 
-    <div class="preloader">
+    {{-- <div class="preloader">
         <div class="lds-ripple">
             <div></div>
             <div></div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="main-banner-area">
         <div class="d-table">
@@ -66,9 +66,9 @@
                                         <span>Cow</span>
                                     </li>
                                 </ul>
-                                <h1>Vegetables and Fruits Good For Health</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna
-                                    aliqua elsed tempomet, consectetur adipiscing.</p>
+                                <h1>30% off on our luxury apartments</h1>
+                                <p>Buy from us and get 30% discount on all our luxury 2 and 3 bedroom apartments at Lily
+                                    Court</p>
                                 <div class="banner-btn">
                                     <a href="#" class="default-btn">
                                         What We do
@@ -205,8 +205,175 @@
         </div>
     </section>
 
-    <section class="footer-section">
+    <section class="country-area ptb-100">
         <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="country-item">
+                        <div class="country-content">
+                            <span>CULIVATION AREA</span>
+                            <h3>Sale and delivery points</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumod tempor incididunt
+                                ut laboreonsectetur adipiscinet dolore .</p>
+                        </div>
+                        <h3>Available Area</h3>
+                        <ul class="country-list">
+                            <li>
+                                <i class="flaticon-plus"></i>
+                                Europe (379)
+                            </li>
+                            <li>
+                                <i class="flaticon-plus"></i>
+                                Australia (10)
+                            </li>
+                            <li>
+                                <i class="flaticon-plus"></i>
+                                USA (7)
+                            </li>
+                            <li>
+                                <i class="flaticon-plus"></i>
+                                Argentina (50)
+                            </li>
+                            <li>
+                                <i class="flaticon-plus"></i>
+                                Russia (4)
+                            </li>
+                            <li>
+                                <i class="flaticon-plus"></i>
+                                Mexico (10)
+                            </li>
+                        </ul>
+                        <div class="country-btn">
+                            <a href="#" class="default-btn">
+                                View all places
+                                <i class="flaticon-plus"></i>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class=map-img>
+                        <img src="assets/img/map.png" alt=map>
+                        <div class="location">
+                            <a href="#">
+                                <div class=location-info>
+                                    <h5>Australia</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="location location2">
+                            <a href="#">
+                                <div class=location-info>
+                                    <h5>Europe</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="location location3">
+                            <a href="#">
+                                <div class=location-info>
+                                    <h5>Russia</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="location location4">
+                            <a href="#">
+                                <div class=location-info>
+                                    <h5>USA</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="location location5">
+                            <a href="#">
+                                <div class=location-info>
+                                    <h5>Argentina</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="location location6">
+                            <a href="#">
+                                <div class=location-info>
+                                    <h5>Mexico</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-area pb-100">
+        <div class="container">
+            <div class="section-title">
+                <h3>Drop us a message for any query</h3>
+                <p>If you have an idea, we would love to hear about it.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control" required
+                                            data-error="Please enter your name" placeholder="Name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="form-control" required
+                                            data-error="Please enter your email" placeholder="Email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required
+                                            data-error="Please enter your number" class="form-control"
+                                            placeholder="Phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control"
+                                            required data-error="Please enter your subject" placeholder="Subject">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6"
+                                            required data-error="Write your message"
+                                            placeholder="Your Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="send-btn">
+                                        <button type="submit" class="default-btn">
+                                            Send Message
+                                            <span></span>
+                                        </button>
+                                    </div>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        {{-- <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
@@ -319,29 +486,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="copyright-area">
             <div class="container">
                 <div class="copyright-area-content">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6">
-                            <p>
-                                Copyright © 2021 Trifles. All Rights Reserved by
-                                <a href="https://envytheme.com/" target="_blank">
-                                    EnvyTheme
+                        <div class="col-lg-12 col-md-12">
+                            <p style="text-align: center;">
+                                Copyright © {{ date('Y') }}. All Rights Reserved by
+                                <a href="/" target="_blank">
+                                    {{ config('app.name') }}
                                 </a>
                             </p>
                         </div>
-                        <div class="col-lg-6 col-md-6">
-                            <ul>
-                                <li>
-                                    <a href="terms-condition.html">Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="privacy-policy.html">Privacy Policy</a>
-                                </li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -377,10 +535,6 @@
     <script src="assets/js/imagelightbox.min.js"></script>
 
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-
-    <script src="assets/js/form-validator.min.js"></script>
-
-    <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/main.js"></script>
 </body>
