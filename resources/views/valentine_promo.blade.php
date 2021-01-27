@@ -66,7 +66,7 @@
                                         <span>Cow</span>
                                     </li>
                                 </ul>
-                                <h1>30% off on our luxury apartments</h1>
+                                <h1>30% off on our luxurious apartments</h1>
                                 <p>Buy from us and get 30% discount on all our luxury 2 and 3 bedroom apartments at Lily
                                     Court</p>
                                 <div class="banner-btn">
