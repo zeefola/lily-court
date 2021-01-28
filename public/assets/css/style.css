@@ -2393,6 +2393,14 @@ h6 {
     margin-left: auto;
     margin-top: 3rem;
 }
+@media only screen and (max-width: 993px) {
+    .main-banner-content {
+        position: absolute;
+        top: -1rem;
+        left: 4rem;
+        z-index: 50;
+    }
+}
 .main-banner-content h1 {
     font-size: 50px;
     color: #333;
@@ -2464,7 +2472,7 @@ h6 {
 }
 .banner-image {
     text-align: right;
-    margin-top: -10px;
+    margin-top: -50px !important;
     position: relative;
 }
 .banner-image .shape-area .creative-shape {
@@ -6687,6 +6695,7 @@ h6 {
     -webkit-box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.05);
     padding: 30px;
+    padding-bottom: 3px;
 }
 .contact-area .contact-form form {
     text-align: center;
@@ -6708,7 +6717,7 @@ h6 {
 }
 .contact-area .contact-form form .form-group {
     text-align: left;
-    margin-bottom: 4.3rem;
+    margin-bottom: 2.5rem;
 }
 .contact-area .contact-form form textarea.form-control {
     height: 120px;
@@ -9425,9 +9434,9 @@ blockquote::after,
 
 .sec-title h2 {
     position: relative;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 800;
-    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
     line-height: 1.4em;
     text-transform: uppercase;
     color: #1c1c1c;
@@ -9444,6 +9453,7 @@ blockquote::after,
 .desc-text p {
     position: relative;
     font-size: 16px;
+    font-style: inherit;
     line-height: 1.7em;
     margin-top: -2rem;
     margin-bottom: 1rem;
@@ -9458,7 +9468,7 @@ blockquote::after,
 .contact-info li {
     position: relative;
     min-height: 50px;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     padding-left: 50px;
 }
 
