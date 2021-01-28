@@ -9419,8 +9419,6 @@ blockquote::after,
     font-style: normal;
 }
 
-
-
 .sec-title {
     margin-bottom: 1rem;
 }
@@ -9509,3 +9507,33 @@ blockquote::after,
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
     font-family: Flaticon;
 }
+/** Pop Up */
+body {
+    position: relative;
+    height: 100%;
+}
+.popUpBannerBox {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    z-index: 999999;
+    display: none;
+}
+.popUpBannerInner {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.popUpBannerContent {
+    position: fixed;
+    top: 150px;
+}
+.closeButton {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+=======
