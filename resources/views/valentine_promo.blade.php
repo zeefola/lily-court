@@ -30,7 +30,8 @@
 
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Valentine Promo || {{ config('app.name') }}</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    {{--
+    <link rel="icon" type="image/png" href="assets/img/favicon.png"> --}}
 </head>
 
 <body>
@@ -51,19 +52,19 @@
                             <div class="main-banner-content">
                                 <ul class="banner-list">
                                     <li>
-                                        <i class="flaticon-onion"></i>
-                                        <sup>1</sup>
-                                        <span>Vegetable</span>
+                                        <i class="flaticon-bath"></i>
+                                        {{-- <sup>1</sup> --}}
+                                        <span>Bathroom</span>
                                     </li>
                                     <li>
                                         <i class="flaticon-fish-1"></i>
-                                        <sup>2</sup>
-                                        <span>Fish</span>
+                                        {{-- <sup>2</sup> --}}
+                                        <span>Kitchen</span>
                                     </li>
                                     <li>
                                         <i class="flaticon-cow-1"></i>
-                                        <sup>3</sup>
-                                        <span>Cow</span>
+                                        {{-- <sup>3</sup> --}}
+                                        <span>Toilet</span>
                                     </li>
                                 </ul>
                                 <h1>30% off on our luxurious apartments</h1>
@@ -175,7 +176,7 @@
                     </div>
                     <div class="about-content-area">
                         <div class="about-content">
-                            <h3>Life is not like a species do you believe?</h3>
+                            <h3>Your convenience and security is our priority</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dorem ipsum dolor sit amet,
                                 consectetur adipiscing.</p>
                         </div>
@@ -212,7 +213,7 @@
                 <div class="col-lg-6">
                     <div class="country-item">
                         <div class="country-content">
-                            <span>CULIVATION AREA</span>
+                            <span>SURROUNDED AREA</span>
                             <h3>Neighbouring Environment</h3>
                             <p>LilyCourt estate is built at places close to Mall (Shoprite Mall), School
                                 (7mins drive to Convenant University) and Airport (20mins drive to Muritala Mohammed
@@ -308,8 +309,8 @@
     <section id="services" class="contact-area pb-100">
         <div class="container">
             <div class="section-title">
-                <h3>Drop us a message for any query</h3>
-                <p>If you have an idea, we would love to hear about it.</p>
+                <h3>Drop us a message for any enquiry</h3>
+                <p>If you have any idea, we would love to hear about it.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
