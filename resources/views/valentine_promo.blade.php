@@ -67,8 +67,10 @@
                                     </li>
                                 </ul>
                                 <h1>30% off on our luxurious apartments</h1>
-                                <p>Buy from us and get 30% discount on all our luxury 2 and 3 bedroom apartments at Lily
-                                    Court</p>
+                                <p>Buy from us this valentine season and get 30% discount on all our luxurious two(2)
+                                    and three(3)
+                                    bedroom apartments at Lily
+                                    Court.</p>
                                 <div class="banner-btn">
                                     <a href="#" class="default-btn">
                                         What We do
@@ -181,19 +183,19 @@
                         <ul class="about-list">
                             <li>
                                 <i class="flaticon-check"></i>
-                                Get Back to Healthy Life
+                                24/7 CCTV Survellance
                             </li>
                             <li>
                                 <i class="flaticon-check"></i>
-                                Wake Up Refreshed
+                                Well Lit Lawns
                             </li>
                             <li>
                                 <i class="flaticon-check"></i>
-                                Set a Healthier Lifestyle
+                                Ample Parking Space
                             </li>
                             <li>
                                 <i class="flaticon-check"></i>
-                                Boost Energy & Metabolism
+                                Built in Shopping Mall
                             </li>
                         </ul>
                     </div>
@@ -212,36 +214,37 @@
                     <div class="country-item">
                         <div class="country-content">
                             <span>CULIVATION AREA</span>
-                            <h3>Sale and delivery points</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiumod tempor incididunt
-                                ut laboreonsectetur adipiscinet dolore .</p>
+                            <h3>Neighbouring Environment</h3>
+                            <p>LilyCourt estate is built at places close to Mall (Shoprite Mall), School
+                                (7mins drive to Convenant University) and Airport (20mins drive to Muritala Mohammed
+                                Airport).</p>
                         </div>
-                        <h3>Available Area</h3>
+                        <h3>Nearby Places</h3>
                         <ul class="country-list">
                             <li>
                                 <i class="flaticon-plus"></i>
-                                Europe (379)
+                                Convenant University
                             </li>
                             <li>
                                 <i class="flaticon-plus"></i>
-                                Australia (10)
+                                Palms Mall
                             </li>
                             <li>
                                 <i class="flaticon-plus"></i>
-                                USA (7)
+                                Muritala Muhammed International Airport
                             </li>
                             <li>
                                 <i class="flaticon-plus"></i>
-                                Argentina (50)
+                                Justrite Supermarket
                             </li>
-                            <li>
+                            {{-- <li>
                                 <i class="flaticon-plus"></i>
                                 Russia (4)
-                            </li>
-                            <li>
+                            </li> --}}
+                            {{-- <li>
                                 <i class="flaticon-plus"></i>
                                 Mexico (10)
-                            </li>
+                            </li> --}}
                         </ul>
                         <div class="country-btn">
                             <a href="#" class="default-btn">
@@ -255,45 +258,45 @@
                 <div class="col-lg-6">
                     <div class=map-img>
                         <img src="assets/img/map.png" alt=map>
-                        <div class="location">
+                        {{-- <div class="location">
                             <a href="#">
                                 <div class=location-info>
-                                    <h5>Australia</h5>
+                                    <h5>School</h5>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                         <div class="location location2">
                             <a href="#">
                                 <div class=location-info>
-                                    <h5>Europe</h5>
+                                    <h5>Airport</h5>
                                 </div>
                             </a>
                         </div>
                         <div class="location location3">
                             <a href="#">
                                 <div class=location-info>
-                                    <h5>Russia</h5>
+                                    <h5>Mall</h5>
                                 </div>
                             </a>
                         </div>
                         <div class="location location4">
                             <a href="#">
                                 <div class=location-info>
-                                    <h5>USA</h5>
+                                    <h5>School</h5>
                                 </div>
                             </a>
                         </div>
-                        <div class="location location5">
+                        {{-- <div class="location location5">
                             <a href="#">
                                 <div class=location-info>
                                     <h5>Argentina</h5>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                         <div class="location location6">
                             <a href="#">
                                 <div class=location-info>
-                                    <h5>Mexico</h5>
+                                    <h5>Supermarket</h5>
                                 </div>
                             </a>
                         </div>
@@ -331,7 +334,7 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6">
+                                <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <input type="text" name="phone_number" id="phone_number" required
                                             data-error="Please enter your number" class="form-control"
@@ -339,21 +342,26 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6">
+                                <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control"
-                                            required data-error="Please enter your subject" placeholder="Subject">
+                                        <div class="select-box">
+                                            <select class="form-control">
+                                                <option value="">Apartment Type</option>
+                                                <option value="2-bedroom">2 bedroom</option>
+                                                <option value="3-bedroom">3 bedroom</option>
+                                            </select>
+                                        </div>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-lg-12 col-md-12">
+                                {{-- <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <textarea name="message" class="form-control" id="message" cols="30" rows="6"
                                             required data-error="Write your message"
                                             placeholder="Your Message"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-lg-12">
                                     <div class="send-btn">
                                         <button type="submit" class="default-btn">
@@ -535,7 +543,9 @@
     <script src="assets/js/imagelightbox.min.js"></script>
 
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
 
+    <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
