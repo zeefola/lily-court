@@ -71,12 +71,12 @@
                                     and well detailed 2-3 bedroom apartment. You stand a chance to win an all-expense
                                     paid night at Radisson Blu Hotel.</p>
                                 <div class="banner-btn">
-                                    <a class="btn default-btn">
+                                    <a class="page-scroll default-btn" href="#about">
                                         View Our Luxury
                                         <i class="flaticon-plus"></i>
                                         <span></span>
                                     </a>
-                                    <a class="btn optional-btn">
+                                    <a class="page-scroll optional-btn" href="#services">
                                         Contact US
                                         <i class="flaticon-plus"></i>
                                     </a>
@@ -118,21 +118,21 @@
     </div>
 
 
-    <section class="special about-section ptb-100">
+    <section id="about" class="about-section ptb-100">
         <div class="container">
             <div class="about-title-area">
                 <div class="row">
                     <div class="col-lg-7 col-md-12">
                         <div class="about-title">
                             <span>KNOW ABOUT US</span>
-                            <h2>The territory might be safe is vegetable easy to get</h2>
+                            <h2>Comfortable and high quality housing at an affordable price</h2>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="about-text">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or randomised words which don't
-                                look even slightly believable.</p>
+                            <p>On a vision to be the for runner in providing and developing comfortable housing units to
+                                people of different classes, Lily Court has developed safe, health enhancement
+                                environment and high quality housing at an affordable price.</p>
                         </div>
                     </div>
                 </div>
@@ -150,8 +150,8 @@
                                 <img src="assets/img/about/1.png" alt="image">
                             </div>
                             <div class="about-text">
-                                <span>Healthy journey</span>
-                                <h3>100% Clean & fresh agro services with low cost</h3>
+                                <span>Safe Environment</span>
+                                <h3>Under CCTV Camera Survellance 24/7</h3>
                             </div>
                         </div>
                         <div class="about-item">
@@ -159,8 +159,8 @@
                                 <img src="assets/img/about/2.png" alt="image">
                             </div>
                             <div class="about-text">
-                                <span>Pure agro services</span>
-                                <h3>Rich in nutrients but no formal or defect</h3>
+                                <span>Well Lit Lawns</span>
+                                <h3>Well taken care of with anti-weed and anti-pest</h3>
                             </div>
                         </div>
                         <div class="about-item">
@@ -168,8 +168,8 @@
                                 <img src="assets/img/about/3.png" alt="image">
                             </div>
                             <div class="about-text">
-                                <span>Healthy journey</span>
-                                <h3>Clean & fresh agro services with low cost</h3>
+                                <span>Children Playground</span>
+                                <h3>Parks with fun activities for children</h3>
                             </div>
                         </div>
                     </div>
@@ -305,7 +305,7 @@
         </div>
     </section>
 
-    <section class="special1 contact-area pb-100">
+    <section id="services" class="contact-area pb-100">
         <div class="container">
             <div class="section-title">
                 <h3>Drop us a message for any query</h3>
@@ -317,9 +317,10 @@
                         <div class="sec-title style-2">
                             <h2>OUR <span>ADDRESS</span></h2>
                         </div>
-                        
+
                         <div class="desc-text">
-                            <p>Lorem ipsum dolor sit amet, epicuri fierent mediocritat nam corrumpit consequat. At usu saepe possit</p>
+                            <p>Lorem ipsum dolor sit amet, epicuri fierent mediocritat nam corrumpit consequat. At usu
+                                saepe possit</p>
                         </div>
                         <!--Contact Info-->
                         <ul class="contact-info">
@@ -328,13 +329,13 @@
                                 <h3>LOKATION</h3>
                                 <p>Mirpur New Bazar Road, Block-c, Dhaka-1210</p>
                             </li>
-                            
+
                             <li>
                                 <span class="flaticon-telephone"></span>
                                 <h3>PHONE</h3>
                                 <p>(732) 803-01 03, (880)172380129</p>
                             </li>
-                            
+
                             <li>
                                 <span class="flaticon-envelope"></span>
                                 <h3>MAIL</h3>
@@ -567,11 +568,22 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-        let btn = document.querySelector('.btn');
-        let el = document.querySelector('.special');
+        $(function() {
 
-        btn.addEventListener('click', function() {
-            el.scrollIntoView(true);
+            $('a.page-scroll[href*="#"]:not([href="#"])').on('click', function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location
+                    .hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: (target.offset().top - 60)
+                        }, 1200, "easeInOutExpo");
+                        return false;
+                    }
+                }
+            });
+
         });
 
     </script>
