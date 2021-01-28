@@ -2391,6 +2391,7 @@ h6 {
 .main-banner-content {
     max-width: 630px;
     margin-left: auto;
+    margin-top: 5rem;
 }
 .main-banner-content h1 {
     font-size: 50px;

@@ -69,7 +69,7 @@
         <div class="d-table">
             <div class="d-table-cell">
                 <div class="container-fluid">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center" style="margin-top: -8rem;">
                         <div class="col-lg-6 col-md-12">
                             <div class="main-banner-content">
                                 <ul class="banner-list">
