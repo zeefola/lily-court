@@ -2391,7 +2391,7 @@ h6 {
 .main-banner-content {
     max-width: 630px;
     margin-left: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .main-banner-content h1 {
     font-size: 50px;
@@ -6708,6 +6708,7 @@ h6 {
 }
 .contact-area .contact-form form .form-group {
     text-align: left;
+    margin-bottom: 4.3rem;
 }
 .contact-area .contact-form form textarea.form-control {
     height: 120px;
@@ -9407,4 +9408,94 @@ blockquote::after,
     line-height: 42px;
     color: #4bc700;
     font-style: normal;
+}
+
+
+
+.sec-title {
+    margin-bottom: 1rem;
+}
+
+.sec-title.style-2 {
+    text-align: left;
+}
+.sec-title {
+    position: relative;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.sec-title h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #1c1c1c;
+}
+
+.sec-title h2 span {
+    font-weight: 400;
+}
+
+.desc-text {
+    position: relative;
+    top: -7px;
+}
+.desc-text p {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-info li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 3rem;
+    padding-left: 50px;
+}
+
+.contact-info li span {
+    content: "\f10d";
+    left: 0px;
+    top: 5px;
+    width: 40px;
+    line-height: 42px;
+    color: #d81b75;
+    font-size: 50px;
+    font-style: normal;
+    position: absolute;
+    margin-left: -2rem;
+}
+
+.contact-info li h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+
+.contact-info li p {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.flaticon-location:before {
+    content: "\f10d";
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
 }

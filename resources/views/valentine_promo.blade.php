@@ -314,7 +314,35 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
-
+                    <div class="contact-form">
+                        <div class="sec-title style-2">
+                            <h2>OUR <span>ADDRESS</span></h2>
+                        </div>
+                        
+                        <div class="desc-text">
+                            <p>Lorem ipsum dolor sit amet, epicuri fierent mediocritat nam corrumpit consequat. At usu saepe possit</p>
+                        </div>
+                        <!--Contact Info-->
+                        <ul class="contact-info">
+                            <li>
+                                <span class="flaticon-location"></span>
+                                <h3>LOKATION</h3>
+                                <p>Mirpur New Bazar Road, Block-c, Dhaka-1210</p>
+                            </li>
+                            
+                            <li>
+                                <span class="flaticon-telephone"></span>
+                                <h3>PHONE</h3>
+                                <p>(732) 803-01 03, (880)172380129</p>
+                            </li>
+                            
+                            <li>
+                                <span class="flaticon-envelope"></span>
+                                <h3>MAIL</h3>
+                                <p>info@companyname.com</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="contact-form">
