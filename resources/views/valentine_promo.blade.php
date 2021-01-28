@@ -3,12 +3,6 @@
 
 <head>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"
-        integrity="sha256-BDmtN+79VRrkfamzD16UnAoJP8zMitAz093tvZATdiE=" crossorigin="anonymous"></script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -40,23 +34,6 @@
 </head>
 
 <body>
-
-    <!-- Pop Up-->
-    <div class="popUpBannerBox">
-        <!-- Full Width/Height Background -->
-        <div class="popUpBannerInner">
-            <!-- Center Inner Container -->
-            <div class="popUpBannerContent">
-                <!-- Content -->
-                <h2>This can be the Title</h2>
-                <p><a href="http://goo.gl/GGp2JE"><img src="http://html-tuts.com/images/infinity_300x250px.png"
-                            alt="" /></a></p>
-                <p>And here is some text to include</p>
-                <p><a href="#" class="closeButton">Close Ad</a></p>
-            </div>
-        </div>
-    </div>
-
 
     {{-- <div class="preloader">
         <div class="lds-ripple">
@@ -90,18 +67,17 @@
                                     </li>
                                 </ul>
                                 <h1>30% off on our luxurious apartments</h1>
-                                <p>Buy from us this valentine season and get 30% discount on all our luxurious two(2)
-                                    and three(3)
-                                    bedroom apartments at Lily
-                                    Court.</p>
+                                <p>Your search for comfort and asset security is over. Get a 30% discount on our luxury
+                                    and well detailed 2-3 bedroom apartment. You stand a chance to win an all-expense
+                                    paid night at Radisson Blu Hotel.</p>
                                 <div class="banner-btn">
-                                    <a href="#" class="default-btn">
-                                        What We do
+                                    <a class="btn default-btn">
+                                        View Our Luxury
                                         <i class="flaticon-plus"></i>
                                         <span></span>
                                     </a>
-                                    <a class="optional-btn" href="#">
-                                        Visit our firm
+                                    <a class="btn optional-btn">
+                                        Contact US
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -142,7 +118,7 @@
     </div>
 
 
-    <section class="about-section ptb-100">
+    <section class="special about-section ptb-100">
         <div class="container">
             <div class="about-title-area">
                 <div class="row">
@@ -329,7 +305,7 @@
         </div>
     </section>
 
-    <section class="contact-area pb-100">
+    <section class="special1 contact-area pb-100">
         <div class="container">
             <div class="section-title">
                 <h3>Drop us a message for any query</h3>
@@ -340,35 +316,36 @@
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
+                    @includeIf('layouts.error_template')
                     <div class="contact-form">
-                        <form id="contactForm">
+                        <form id="contactForm" action="/valentine-contact" method="post">
+                            {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" required
-                                            data-error="Please enter your name" placeholder="Name">
+                                        <input type="text" name="name" id="name" class="form-control"
+                                            placeholder="Name">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" required
-                                            data-error="Please enter your email" placeholder="Email">
+                                        <input type="email" name="email" id="email" class="form-control"
+                                            placeholder="Email">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required
-                                            data-error="Please enter your number" class="form-control"
-                                            placeholder="Phone">
+                                        <input type="text" name="phone" id="phone_number" class="form-control"
+                                            placeholder="Phone Number">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
                                         <div class="select-box">
-                                            <select class="form-control">
+                                            <select class="form-control" name="apartment_type">
                                                 <option value="">Apartment Type</option>
                                                 <option value="2-bedroom">2 bedroom</option>
                                                 <option value="3-bedroom">3 bedroom</option>
@@ -377,14 +354,7 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                {{-- <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6"
-                                            required data-error="Write your message"
-                                            placeholder="Your Message"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div> --}}
+
                                 <div class="col-lg-12">
                                     <div class="send-btn">
                                         <button type="submit" class="default-btn">
@@ -543,8 +513,6 @@
         <i class="fas fa-chevron-up"></i>
     </div>
 
-
-    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
 
     <script src="assets/js/popper.min.js"></script>
@@ -568,25 +536,14 @@
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
 
-    <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <script type="text/javascript">
-        function showPopUpBanner() {
-            $('.popUpBannerBox').fadeIn("2000");
-        }
-        setTimeout(showPopUpBanner, 3000);
+    <script>
+        let btn = document.querySelector('.btn');
+        let el = document.querySelector('.special');
 
-        $('.popUpBannerBox').click(function(e) {
-            if (!$(e.target).is('.popUpBannerContent, .popUpBannerContent *')) {
-                $('.popUpBannerBox').fadeOut("2000");
-                return false;
-            }
-        });
-
-        $('.closeButton').click(function() {
-            $('.popUpBannerBox').fadeOut("2000");
-            return false;
+        btn.addEventListener('click', function() {
+            el.scrollIntoView(true);
         });
 
     </script>

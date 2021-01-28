@@ -27,29 +27,27 @@
 
 */
 
-
 /*------------------------------------
             1.0 Load Fonts
 ------------------------------------*/
 
 @font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Roboto-Regula.ttf');
+    font-family: "Lato";
+    src: url("../fonts/Roboto-Regula.ttf");
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Lato-Regular.ttf');
+    font-family: "Montserrat";
+    src: url("../fonts/Lato-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/fontawesome-webfont.ttf') format('truetype');
-    src: url('../fonts/fontawesome-webfont.woff') format('woff');
+    font-family: "FontAwesome";
+    src: url("../fonts/fontawesome-webfont.ttf") format("truetype");
+    src: url("../fonts/fontawesome-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
-
 
 /*------------------------------------
             2.0 Reset HTML 
@@ -59,7 +57,7 @@ body,
 ul {
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -107,7 +105,7 @@ h6 {
 p {
     color: #6e6e6e;
     font-size: 16px !important;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 section {
@@ -124,7 +122,7 @@ blockquote {
     font-weight: 500;
     margin: 20px 0;
     padding: 30px;
-    font-family: 'Lato';
+    font-family: "Lato";
     letter-spacing: 1px;
 }
 
@@ -185,7 +183,6 @@ a:hover {
     text-decoration: none;
 }
 
-
 /*====== Video Container ===*/
 
 .video-container {
@@ -221,18 +218,15 @@ a:hover {
     border: none;
 }
 
-
 /*------------------------------------
             3.0 Header 
 ------------------------------------*/
-
 
 /*========== Header Wrapper ==========*/
 
 .header-wrapper {
     position: relative;
 }
-
 
 /*header top*/
 
@@ -270,7 +264,6 @@ a:hover {
     width: 100%;
 }
 
-
 /*header top navigation */
 
 .top-menu {
@@ -299,7 +292,7 @@ a:hover {
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 13px;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: bolder;
 }
 
@@ -317,7 +310,6 @@ a:hover {
     display: block;
     border: none;
 }
-
 
 /* social top */
 
@@ -362,7 +354,6 @@ a:hover {
 .top-menu a:focus {
     text-decoration: none;
 }
-
 
 /*header main*/
 
@@ -412,7 +403,6 @@ a:hover {
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
-
 
 /*========== Main Navigation ==========*/
 
@@ -503,7 +493,6 @@ a:hover {
         text-align: center;
         float: none;
     }
-    .top-menu {}
 }
 
 .navbar,
@@ -529,7 +518,7 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
     color: #181d30;
     border-bottom: 3px solid transparent;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
@@ -584,8 +573,8 @@ a:hover {
 }
 
 .navbar-toggle:after {
-    content: '\f0c9';
-    font-family: 'FontAwesome';
+    content: "\f0c9";
+    font-family: "FontAwesome";
 }
 
 @media (min-width: 992px) {
@@ -600,8 +589,7 @@ a:hover {
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
     }
-    .navbar-nav > li > a:hover,
-    .navbar-nav > li > a:focus {}
+
     .navbar-nav > li > a.current::before,
     .navbar-nav > li > a.current::after,
     .navbar-nav > li > a:hover::before,
@@ -616,7 +604,6 @@ a:hover {
         transform: translateY(0px);
     }
 }
-
 
 /* Mega Menu */
 
@@ -653,9 +640,7 @@ a:hover {
     right: 0;
 }
 
-
 /* Mega Menu Elements styling*/
-
 
 /* lists */
 
@@ -680,14 +665,14 @@ a:hover {
     padding: 0px 10px;
     font-weight: normal;
     text-transform: none;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .mega-menu-list > li > a {
     color: #fff;
     display: block;
     padding: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: bolder;
@@ -708,13 +693,13 @@ a:hover {
 
 .mega-menu-list .title-header:before {
     content: "\f055";
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome";
     padding-right: 5px;
 }
 
 .mega-menu-list .title-header {
     color: #333;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 14px;
     margin-bottom: 10px;
     margin-left: 8px;
@@ -733,7 +718,6 @@ a:hover {
     padding: 10px 0;
 }
 
-
 /* dropdowns */
 
 .dropdown-menu {
@@ -751,8 +735,8 @@ a:hover {
     text-transform: uppercase;
     text-decoration: none;
     white-space: nowrap;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Lato', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Lato", sans-serif;
     padding: 10px 20px;
     letter-spacing: 1px;
 }
@@ -767,17 +751,15 @@ a:hover {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
     color: #fff;
-    font-family: 'Lato';
+    font-family: "Lato";
     transition: all 0.6s ease-in-out;
     -webkit-transition: all 0.6s ease-in-out;
     -moz-transition: all 0.6s ease-in-out;
 }
 
-
 /*------------------------------------
             4.0 Slider 
 ------------------------------------*/
-
 
 /*      4.1 Slider Style 1
  -----------------------------*/
@@ -931,7 +913,6 @@ a:hover {
     position: relative;
 }
 
-
 /*      4.2 Slider Style 2
  -----------------------------*/
 
@@ -952,7 +933,7 @@ a:hover {
     height: 5px;
     padding: 0px 5px;
     border-radius: 0px;
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .fade-carousel .carousel-indicators > li.active {
@@ -971,7 +952,7 @@ a:hover {
     color: #fff;
     text-align: left;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
     -webkit-transform: translate3d(-50%, -50%, 0);
     -moz-transform: translate3d(-50%, -50%, 0);
     -ms-transform: translate3d(-50%, -50%, 0);
@@ -994,7 +975,7 @@ a:hover {
 
 .hero h5 {
     color: #bfc1c6;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.6em;
@@ -1002,7 +983,7 @@ a:hover {
 
 .hero p {
     color: #bfc1c6;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.6em;
@@ -1029,20 +1010,20 @@ a:hover {
 
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
-    -webkit-transition: 2s all ease-in-out .1s;
-    -moz-transition: 2s all ease-in-out .1s;
-    -ms-transition: 2s all ease-in-out .1s;
-    -o-transition: 2s all ease-in-out .1s;
-    transition: 2s all ease-in-out .1s;
+    -webkit-transition: 2s all ease-in-out 0.1s;
+    -moz-transition: 2s all ease-in-out 0.1s;
+    -ms-transition: 2s all ease-in-out 0.1s;
+    -o-transition: 2s all ease-in-out 0.1s;
+    transition: 2s all ease-in-out 0.1s;
 }
 
 .fade-carousel .carousel-inner .item.active .hero {
     opacity: 1;
-    -webkit-transition: 2s all ease-in-out .1s;
-    -moz-transition: 2s all ease-in-out .1s;
-    -ms-transition: 2s all ease-in-out .1s;
-    -o-transition: 2s all ease-in-out .1s;
-    transition: 2s all ease-in-out .1s;
+    -webkit-transition: 2s all ease-in-out 0.1s;
+    -moz-transition: 2s all ease-in-out 0.1s;
+    -ms-transition: 2s all ease-in-out 0.1s;
+    -o-transition: 2s all ease-in-out 0.1s;
+    transition: 2s all ease-in-out 0.1s;
 }
 
 .overlay {
@@ -1051,16 +1032,16 @@ a:hover {
     height: 100%;
     z-index: 2;
     background-color: #080d15;
-    opacity: .2;
+    opacity: 0.2;
 }
 
-.btn.btn-lg {
+.btn .btn1 .btn-lg {
     padding: 10px 40px;
 }
 
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
+.btn .btn1 .btn-hero,
+.btn .btn1 .btn-hero:hover,
+.btn .btn1 .btn-hero:focus {
     color: #f5f5f5;
     background-color: #39a3de;
     border-color: #39a3de;
@@ -1069,7 +1050,7 @@ a:hover {
     margin: 20px auto;
     text-transform: uppercase;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     padding: 10px 20px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -1112,11 +1093,9 @@ a:hover {
     }
 }
 
-
 /*------------------------------------
             5.0 About Propery 
 ------------------------------------*/
-
 
 /*      5.1 Full Width
  -----------------------------*/
@@ -1126,7 +1105,7 @@ a:hover {
     padding: 0;
     list-style: none;
     width: 100%;
-    margin: auto
+    margin: auto;
 }
 
 .about_cottage ul li {
@@ -1134,13 +1113,13 @@ a:hover {
     height: 200px;
     text-align: center;
     min-width: 180px;
-    float: left
+    float: left;
 }
 
 .about_cottage ul li img {
     margin-top: 5px;
     width: 32px;
-    height: 32px
+    height: 32px;
 }
 
 .about_cottage ul li {
@@ -1156,51 +1135,51 @@ a:hover {
 
 .about_cottage ul li:last-child,
 .about_cottage ul li:nth-child(3) {
-    border-right: none
+    border-right: none;
 }
 
 .about_cottage ul li figcaption {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     color: #7e8c99;
     line-height: 3;
     text-transform: uppercase;
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 .about_cottage ul li h3 {
     margin-top: 0;
     text-transform: uppercase;
     /*color: #e44621;*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .about_cottage ul li h2 {
     color: #435061;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 30px;
-    margin-top: 0
+    margin-top: 0;
 }
 
 .about_cottage .buttons {
     float: left;
     width: 100%;
     text-align: center;
-    margin-top: 70px
+    margin-top: 70px;
 }
 
 .about_cottage p {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     padding-bottom: 10px;
 }
 
 .about_cottage h4 {
     font-weight: 700;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .about_cottage ul.about-cottage-gallery {
@@ -1213,37 +1192,36 @@ a:hover {
     margin-bottom: 15px;
 }
 
-
 /*      5.2 About Property 2
  -----------------------------*/
 
 .about_property {
     width: 100%;
-    float: left
+    float: left;
 }
 
 .recentfromblog h1 {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 27px;
     font-weight: 700;
     position: relative;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .about_property .description {
     margin: 40px auto auto;
     text-align: center;
     width: 75%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     line-height: 1.9;
-    margin-bottom: 60px
+    margin-bottom: 60px;
 }
 
 .about_property .description {
-    width: 100%
+    width: 100%;
 }
 
 .about_property ul {
@@ -1251,62 +1229,62 @@ a:hover {
     padding: 0;
     list-style: none;
     width: 100%;
-    margin: auto
+    margin: auto;
 }
 
 .about_property ul li {
     display: inline-block;
     height: 150px;
     text-align: center;
-    float: left
+    float: left;
 }
 
 .about_property ul li img {
     margin-top: 5px;
     width: 32px;
-    height: 32px
+    height: 32px;
 }
 
 .about_property ul li {
-    border-right: 1px solid #e1e6ec
+    border-right: 1px solid #e1e6ec;
 }
 
 .about_property ul li:last-child {
-    border-right: none
+    border-right: none;
 }
 
 .about_property ul li figcaption {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     color: #7e8c99;
     line-height: 3;
     text-transform: uppercase;
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 .about_property ul li h3 {
     margin-top: 0;
     text-transform: uppercase;
     color: #435061;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .about_property ul li h2 {
     color: #435061;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 30px;
-    margin-top: 0
+    margin-top: 0;
 }
 
 .about_property .buttons {
     float: left;
     width: 100%;
     text-align: center;
-    margin-top: 70px
+    margin-top: 70px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1320,7 +1298,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 767px) and (max-width:992px) {
+@media screen and (min-width: 767px) and (max-width: 992px) {
     .about_property ul li {
         margin: 15px auto;
     }
@@ -1330,16 +1308,12 @@ a:hover {
     }
 }
 
-
 /*-------------------------------------
             6.0 Property Deatils 
 -------------------------------------*/
 
-
 /*      6.1 With Three Tabs
  -----------------------------*/
-
-.prop-detail {}
 
 .prop-detail .nav-tabs > li > a,
 .prop-detail .nav-tabs > li > a:hover {
@@ -1351,7 +1325,7 @@ a:hover {
     margin-right: 0px;
     color: #fff;
     background-color: #181d30;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
@@ -1361,19 +1335,19 @@ a:hover {
     border: none;
 }
 
-.prop-detail .nav-tabs>li {
+.prop-detail .nav-tabs > li {
     border: none;
     margin-bottom: 0px;
 }
 
-.prop-detail .nav-tabs>li.active>a {
+.prop-detail .nav-tabs > li.active > a {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
     border: none;
 }
 
-.prop-detail .nav-tabs>li.active>a:hover {
+.prop-detail .nav-tabs > li.active > a:hover {
     border: none;
 }
 
@@ -1383,14 +1357,14 @@ a:hover {
 
 .prop-detail strong {
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
     display: block;
     padding: 10px 0px;
 }
 
 .prop-detail p {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .prop-detail .tab-content ul {
@@ -1400,14 +1374,13 @@ a:hover {
 .prop-detail .tab-content ul li {
     margin: 20px auto;
     font-size: 14px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     text-transform: uppercase;
 }
 
 .prop-detail .tab-content ul li:last-child {
     margin-bottom: 0px;
 }
-
 
 /*      6.2 With Two Column and Image
  -----------------------------*/
@@ -1460,7 +1433,7 @@ a:hover {
 
 .property-detail-home .prop-detail-box p {
     color: #e6e6e6;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .property-detail-home .prop-amenities {
@@ -1485,11 +1458,9 @@ a:hover {
     }
 }
 
-
 /*-------------------------------------
             7.0 Appointment
 -------------------------------------*/
-
 
 /*  7.1 Appointment style 1
  -----------------------------*/
@@ -1512,7 +1483,6 @@ a:hover {
     margin: 0px auto;
 }
 
-
 /*  7.2 Appointment style 2
  -----------------------------*/
 
@@ -1533,7 +1503,7 @@ a:hover {
 
 .appointment-box h3 {
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     margin-bottom: 15px;
     letter-spacing: 1px;
 }
@@ -1542,15 +1512,15 @@ form.app-form {
     padding: 1px 15px;
 }
 
-form button.btn {
+form button.btn .btn1 {
     letter-spacing: 1px;
 }
 
 .bg-img-container {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
     position: absolute;
     top: 0;
     right: 0;
@@ -1579,13 +1549,8 @@ form button.btn {
     top: 10px;
 }
 
-
 /*  7.3 Appointment Page
  -----------------------------*/
-
-.appointment-page span {
-    height:
-}
 
 .appointment-page .input-group {
     padding: 10px 0px;
@@ -1626,16 +1591,15 @@ label.control-label span {
     cursor: pointer;
 }
 
-
 /*-------------------------------------
             8.0 Features of Cottage
 -------------------------------------*/
 
-
 /*      8.1 Feature Style 1
  -----------------------------*/
 
-.cottage-features {}
+.cottage-features {
+}
 
 .cottage-features p.description,
 .cottage-nearby p.description {
@@ -1647,7 +1611,6 @@ label.control-label span {
 .home-features-bg {
     background-image: url(../images/feature-1.jpg);
 }
-
 
 /*      8.2 Feature Style 2
  -----------------------------*/
@@ -1715,11 +1678,9 @@ label.control-label span {
     }
 }
 
-
 /*-----------------------------------
             9.0 GALLERY
 ------------------------------------*/
-
 
 /*===== Gallery fullwidth =====*/
 
@@ -1740,7 +1701,7 @@ label.control-label span {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
-    font-family: 'Lato';
+    font-family: "Lato";
     border: none;
     color: #777;
 }
@@ -1763,7 +1724,6 @@ section.gallery-classic-section .gallery {
     background-color: transparent;
     overflow: hidden;
 }
-
 
 /*===== Gallery Normal =====*/
 
@@ -1900,7 +1860,6 @@ section.gallery-classic-section .gallery {
     background-color: rgba(255, 255, 255, 1);
 }
 
-
 /*Gallery - standards*/
 
 .gallery-standard h3 {
@@ -1925,7 +1884,6 @@ section.gallery-classic-section .gallery {
     color: #e44621 !important;
 }
 
-
 /*Gallery - Columns*/
 
 .gallery-4-coloumns .gallery-images li {
@@ -1933,11 +1891,9 @@ section.gallery-classic-section .gallery {
     overflow: hidden;
 }
 
-
 /*-------------------------------------
             10.0 BLOG & TESTIMONIALS
 -------------------------------------*/
-
 
 /*=== Blog ===*/
 
@@ -1977,7 +1933,6 @@ section.gallery-classic-section .gallery {
     font-size: 14px;
 }
 
-
 /*=== Testimonial ===*/
 
 .home-testimonials {
@@ -1992,7 +1947,8 @@ section.gallery-classic-section .gallery {
     border: 1px solid #eee;
 }
 
-.testimonials-box h2 {}
+.testimonials-box h2 {
+}
 
 .testimonials-box ol.carousel-indicators {
     position: relative;
@@ -2001,7 +1957,7 @@ section.gallery-classic-section .gallery {
 }
 
 .testimonials-box ol.carousel-indicators li.active {
-    background-color: #f15b5a
+    background-color: #f15b5a;
 }
 
 .testimonials-box ol.carousel-indicators li {
@@ -2024,7 +1980,6 @@ section.gallery-classic-section .gallery {
     float: right;
     margin-top: 20px;
 }
-
 
 /*------------------------------------
         11.0: Cottage Info Box
@@ -2049,7 +2004,7 @@ section.gallery-classic-section .gallery {
     color: #bfc1c6;
     padding-left: 20px;
     border-left: 2px solid #888;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 18px;
 }
 
@@ -2062,16 +2017,15 @@ section.gallery-classic-section .gallery {
     margin-top: 5px;
 }
 
-
 /*------------------------------------
         12.0: ABOUT AGENT
 ------------------------------------*/
 
-
 /*     12.1 Agent Info
  -----------------------------*/
 
-.agent-contact-detail {}
+.agent-contact-detail {
+}
 
 .agent-contact-detail .detail {
     color: #181d30;
@@ -2083,7 +2037,7 @@ section.gallery-classic-section .gallery {
 }
 
 .about-agent p.description {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     margin-bottom: 10px;
 }
 
@@ -2115,7 +2069,6 @@ section.gallery-classic-section .gallery {
     font-size: 16px;
     color: #888;
 }
-
 
 /*     12.2 Agent with Contact and bg Map
  -----------------------------*/
@@ -2168,7 +2121,7 @@ section.gallery-classic-section .gallery {
 .footer-agent-contact .footer-agent em {
     display: block;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: "Lato";
     padding: 5px;
     color: #d3d3d3;
 }
@@ -2203,7 +2156,7 @@ section.gallery-classic-section .gallery {
 
 .footer-agent-contact .footer-reachout p {
     color: #fff;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .footer-agent-contact .footer-agent .info-box p {
@@ -2211,7 +2164,6 @@ section.gallery-classic-section .gallery {
     display: block;
     padding: 12px 20px;
 }
-
 
 /*-------------------------------------
             13.0 Call to Action 
@@ -2222,7 +2174,6 @@ section.gallery-classic-section .gallery {
     width: 100%;
     height: auto;
 }
-
 
 /*=== with overlay ====*/
 
@@ -2261,7 +2212,7 @@ section.gallery-classic-section .gallery {
 }
 
 #call-to-action-2 button {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 1px;
@@ -2274,16 +2225,15 @@ section.gallery-classic-section .gallery {
     background-image: url(../images/call-back.jpg);
 }
 
-
 /*-------------------------------------
             14.0 NearBy Places
 -------------------------------------*/
 
-
 /*      14.1 Nearby With Map Image
  -----------------------------*/
 
-.cottage-nearby {}
+.cottage-nearby {
+}
 
 .cottage-nearby ul {
     list-style: none;
@@ -2323,11 +2273,11 @@ section.gallery-classic-section .gallery {
     padding-right: 15px;
 }
 
-
 /*      14.2 Nearby With Icons only
  -----------------------------*/
 
-.nearby-places {}
+.nearby-places {
+}
 
 .nearby-places .near-place {
     padding: 10px 0px;
@@ -2360,7 +2310,7 @@ section.gallery-classic-section .gallery {
 .nearby-places .nearby-info em,
 .nearby-places .nearby-info h4 {
     display: block;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .nearby-places .nearby-info strong {
@@ -2375,7 +2325,6 @@ section.gallery-classic-section .gallery {
     padding-top: 3px;
     font-size: 14px;
 }
-
 
 /*-----------------------------------
         15.0 404: Page Not Found
@@ -2445,7 +2394,7 @@ section.gallery-classic-section .gallery {
     color: #ff5500;
 }
 
-.page-not-found-msg button.btn {
+.page-not-found-msg button.btn .btn1 {
     padding: 11px 25px;
     position: relative;
     bottom: 0px;
@@ -2464,7 +2413,7 @@ section.gallery-classic-section .gallery {
 .page-not-found2 p {
     text-transform: uppercase;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .page-not-found2 p span {
@@ -2479,7 +2428,6 @@ section.gallery-classic-section .gallery {
 .page-not-found2 a i.fa {
     font-size: 18px;
 }
-
 
 /*-----------------------------------
     16.0 FAQ: Frequently Asked Questions Page
@@ -2516,7 +2464,7 @@ section.gallery-classic-section .gallery {
 
 .faq-contact-agent .faq-agent h4 {
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #fff;
     margin-bottom: 0px;
 }
@@ -2544,7 +2492,6 @@ section.gallery-classic-section .gallery {
     letter-spacing: 0.7px;
     padding: 0px;
 }
-
 
 /*-------------------------------------
             17.0 TOUR Page
@@ -2583,7 +2530,7 @@ section.gallery-classic-section .gallery {
     width: 100%;
     height: 100%;
     background: #253d4a;
-    opacity: 0.50;
+    opacity: 0.5;
 }
 
 .tour .video-section .caption-box {
@@ -2620,7 +2567,6 @@ section.gallery-classic-section .gallery {
 .tour .caption-box p {
     color: #fff;
 }
-
 
 /*-----------------------------------
         18.0 BLOG LIST
@@ -2682,14 +2628,13 @@ section.gallery-classic-section .gallery {
     font-size: 14px;
     color: #435061;
     padding-left: 15px;
-    font-family: 'Lato';
+    font-family: "Lato";
     display: inline-block;
 }
 
 .bloglist p {
     padding: 15px;
 }
-
 
 /*===================================
             SINGLE POST
@@ -2719,7 +2664,7 @@ section.gallery-classic-section .gallery {
     left: 0px;
     background-color: rgba(24, 29, 48, 0.85);
     padding: 20px;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 @media screen and (max-width: 767px) {
@@ -2728,18 +2673,18 @@ section.gallery-classic-section .gallery {
         bottom: 0px;
         left: 0px;
         padding: 20px;
-        font-family: 'Lato';
+        font-family: "Lato";
     }
 }
 
 .post-info h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 .post-info ul.post-meta-info {
     color: #fff;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .post-info ul.post-meta-info li.meta-author > a,
@@ -2800,7 +2745,6 @@ section.gallery-classic-section .gallery {
     clear: both;
 }
 
-
 /*======= Comments =======*/
 
 .comments {
@@ -2860,7 +2804,7 @@ p.news-detail-links {
 }
 
 p.news-detail-links label {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: normal;
     display: inline-block;
     padding-right: 10px;
@@ -2878,9 +2822,7 @@ p.news-detail-links label i.fa {
     /*margin-top: 10px;*/
 }
 
-
 /*======== Widget Management =======*/
-
 
 /* Sidebar */
 
@@ -2916,7 +2858,6 @@ p.news-detail-links label i.fa {
     padding-right: 15px;
 }
 
-
 /* widget */
 
 .sidebar-widget {
@@ -2931,7 +2872,6 @@ p.news-detail-links label i.fa {
 .sidebar-widget .title-widget.fancy-title span:after {
     margin: 30px 0 -3px;
 }
-
 
 /* Pagination */
 
@@ -2968,7 +2908,6 @@ p.news-detail-links label i.fa {
     color: #ffffff;
 }
 
-
 /*======= SIDEBAR ======*/
 
 .sidebar.sidebar-right:before {
@@ -2993,7 +2932,7 @@ p.news-detail-links label i.fa {
 }
 
 .sidebar ul.widget-list li a {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
     text-decoration: none;
     font-weight: normal;
@@ -3021,7 +2960,6 @@ p.news-detail-links label i.fa {
     overflow: hidden;
 }
 
-
 /*search widget*/
 
 .sidebar-widget .search-widget {
@@ -3035,7 +2973,6 @@ p.news-detail-links label i.fa {
     /*top: 4px;*/
 }
 
-
 /*tabbed widget*/
 
 .sidebar-widget .tabbed-widget ul.nav {
@@ -3047,7 +2984,7 @@ p.news-detail-links label i.fa {
     border-radius: 0px;
     border: none;
     color: #fff;
-    font-family: 'Lato';
+    font-family: "Lato";
     padding: 10px 5px;
 }
 
@@ -3072,7 +3009,7 @@ p.news-detail-links label i.fa {
     margin-left: 10px;
     display: block;
     color: #435061;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .tabbed-widget .tab-content .post-item .post-meta-info {
@@ -3080,7 +3017,7 @@ p.news-detail-links label i.fa {
 }
 
 .tabbed-widget .tab-content .post-item .post-meta-info a {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #435061;
     font-size: 12px;
 }
@@ -3091,7 +3028,7 @@ p.news-detail-links label i.fa {
 }
 
 .tabbed-widget .tab-content ul.comments-list li a {
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .tabbed-widget .tab-content ul.comments-list li a.comment-user {
@@ -3103,11 +3040,10 @@ p.news-detail-links label i.fa {
     color: #435061;
 }
 
-
 /*Tags*/
 
 .sidebar-widget .tags a {
-    font-family: 'Lato';
+    font-family: "Lato";
     padding: 10px 15px;
     background-color: #181d30;
     display: inline-block;
@@ -3115,15 +3051,14 @@ p.news-detail-links label i.fa {
     color: #fff;
 }
 
-
 /*-----------------------------------
         19.0 Contact Us
 -----------------------------------*/
 
-
 /*====== Contact 1 ======*/
 
-.contact-1 {}
+.contact-1 {
+}
 
 .contact-1 ul li,
 .contact-1 ul span {
@@ -3133,11 +3068,11 @@ p.news-detail-links label i.fa {
 
 .contact-1 ul li {
     color: #435061;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 16px;
 }
 
-.contact-1 button.btn {
+.contact-1 button.btn .btn1 {
     border-radius: 0px;
     text-decoration: normal;
     text-transform: uppercase;
@@ -3148,10 +3083,9 @@ p.news-detail-links label i.fa {
 p.form-status {
     text-align: center;
 }
-.contact-map1{
+.contact-map1 {
     clear: both;
 }
-
 
 /*-----------------------------------
         20.0 FOOTER
@@ -3174,7 +3108,7 @@ footer .primary-footer {
     padding-top: 30px;
 }
 
-footer .primary-footer ul.fa-ul>li {
+footer .primary-footer ul.fa-ul > li {
     color: #767381;
     margin-bottom: 10px;
 }
@@ -3202,7 +3136,6 @@ footer .contact-us-container .box.call:first-child {
     padding-left: 10px;
 }
 
-
 /*Location Map*/
 
 .location-map {
@@ -3218,7 +3151,6 @@ footer .contact-us-container .box.call:first-child {
 .footer-contact-info .fa-li {
     text-align: left;
 }
-
 
 /*-----------------------------------
     21.0 Easy Content Boxes
@@ -3242,7 +3174,7 @@ footer .contact-us-container .box.call:first-child {
 
 .easy-block-v3 .inner-faq-b h3 {
     margin-bottom: 8px;
-    font-family: 'Lato';
+    font-family: "Lato";
     margin-top: 0px;
 }
 
@@ -3265,11 +3197,11 @@ footer .contact-us-container .box.call:first-child {
     margin-bottom: 6px;
     text-transform: none;
     font-weight: bold;
-    font-family: 'Lato';
+    font-family: "Lato";
 }
 
 .easy-block-v3.second {
-    background: #535C68;
+    background: #535c68;
 }
 
 .easy-block-v3.third {
@@ -3282,11 +3214,9 @@ footer .contact-us-container .box.call:first-child {
     padding: 30px 20px 20px;
 }
 
-
 /*-----------------------------------
         22.0 About Us Page
 ------------------------------------*/
-
 
 /*====== ABOUT 1 ======*/
 
@@ -3298,17 +3228,17 @@ footer .contact-us-container .box.call:first-child {
 }
 
 .about-care p {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .about-care h3 {
     color: #181d30;
 }
 
-
 /*====== ABOUT 2 ======*/
 
-.about-dept {}
+.about-dept {
+}
 
 .about-dept ul,
 .about-lists {
@@ -3336,7 +3266,7 @@ footer .contact-us-container .box.call:first-child {
 .about-dept ul li:before,
 .about-lists ul li:before {
     display: inline-block;
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome";
     font-style: normal;
     font-weight: bold;
     color: #fff;
@@ -3350,11 +3280,9 @@ footer .contact-us-container .box.call:first-child {
     margin-right: 10px;
 }
 
-
 /*-----------------------------------
         Misc - Common
 ------------------------------------*/
-
 
 /* Accordian */
 
@@ -3380,7 +3308,7 @@ footer .contact-us-container .box.call:first-child {
     font-weight: normal;
 }
 
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
     padding: 15px;
     border-radius: 0px;
     background-color: #fff;
@@ -3395,7 +3323,6 @@ footer .contact-us-container .box.call:first-child {
     font-size: 16px;
     padding-right: 10px;
 }
-
 
 /* Breadcrumb */
 
@@ -3492,7 +3419,6 @@ footer .contact-us-container .box.call:first-child {
     background-image: url(../images/slider-3.html);
 }
 
-
 /* Map */
 
 .map-container {
@@ -3524,7 +3450,7 @@ footer .contact-us-container .box.call:first-child {
     text-align: center;
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .map-container .map-data h6 {
@@ -3574,7 +3500,6 @@ hr.align-left {
     margin-left: 0;
 }
 
-
 /*====== HR TITLE border ======*/
 
 hr.title-hr {
@@ -3584,7 +3509,6 @@ hr.title-hr {
     padding: 0px;
     margin: 12px 0px 10px 0px;
 }
-
 
 /*====== Padding top-bottom ========*/
 
@@ -3624,7 +3548,6 @@ hr.title-hr {
     width: 100% !important;
 }
 
-
 /*====== No Gutter Class ======*/
 
 .row.no-gutters {
@@ -3662,11 +3585,10 @@ hr.title-hr {
     margin-bottom: -15px;
 }
 
-
 /*===== BUttons =====*/
 
 .btn-blue-orange {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #181d30;
     padding: 10px 20px;
     color: #fff;
@@ -3680,7 +3602,7 @@ hr.title-hr {
 }
 
 .btn-blue-orange:hover {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     padding: 10px 20px;
     color: #fff;
     font-size: 14px;
@@ -3690,7 +3612,7 @@ hr.title-hr {
 }
 
 .btn-blue-white {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #181d30;
     padding: 10px 20px;
     color: #fff;
@@ -3704,7 +3626,7 @@ hr.title-hr {
 }
 
 .btn-blue-white:hover {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #fff;
     padding: 10px 20px;
     color: #435061;
@@ -3715,7 +3637,7 @@ hr.title-hr {
 }
 
 .btn-white-blue {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #fff;
     padding: 10px 20px;
     color: #181d30;
@@ -3729,7 +3651,7 @@ hr.title-hr {
 }
 
 .btn-white-blue:hover {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #181d30;
     padding: 10px 20px;
     color: #fff;
@@ -3740,7 +3662,7 @@ hr.title-hr {
 }
 
 .btn-orange-blue {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     padding: 10px 20px;
     color: #fff;
     border-radius: 0px;
@@ -3753,7 +3675,7 @@ hr.title-hr {
 }
 
 .btn-orange-blue:hover {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #181d30;
     padding: 10px 20px;
     color: #fff;
@@ -3764,7 +3686,7 @@ hr.title-hr {
 }
 
 .btn-orange-white {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     padding: 10px 20px;
     color: #fff;
     border-radius: 0px;
@@ -3777,7 +3699,7 @@ hr.title-hr {
 }
 
 .btn-orange-white:hover {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     background-color: #fff;
     padding: 10px 20px;
     font-size: 14px;
@@ -3785,7 +3707,6 @@ hr.title-hr {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
 
 /*====== Backgrounds with fill color ======*/
 
@@ -3809,9 +3730,7 @@ hr.title-hr {
     background-color: #eaf0f3;
 }
 
-
 /*====== HR Line align ======*/
-
 
 /*====== Background Images ======*/
 
@@ -3827,9 +3746,8 @@ hr.title-hr {
 
 .background-img-3 {
     background-position: 50% 50%;
-    background-image: url(../images/breadcrumb3.html)
+    background-image: url(../images/breadcrumb3.html);
 }
-
 
 /* ====== Colors ======*/
 
@@ -3847,4 +3765,34 @@ hr.title-hr {
 
 .color-theme-color {
     color: #181d30;
+}
+
+/** Pop Up */
+body {
+    position: relative;
+    height: 100%;
+}
+.popUpBannerBox {
+    position: fixed;
+    background: rgb(0 0 0 / 40%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    z-index: 999999;
+    display: none;
+}
+.popUpBannerInner {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.popUpBannerContent {
+    position: fixed;
+    top: 150px;
+}
+.closeButton {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
 }
