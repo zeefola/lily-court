@@ -3,6 +3,12 @@
 
 <head>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"
+        integrity="sha256-BDmtN+79VRrkfamzD16UnAoJP8zMitAz093tvZATdiE=" crossorigin="anonymous"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -34,6 +40,23 @@
 </head>
 
 <body>
+
+    <!-- Pop Up-->
+    <div class="popUpBannerBox">
+        <!-- Full Width/Height Background -->
+        <div class="popUpBannerInner">
+            <!-- Center Inner Container -->
+            <div class="popUpBannerContent">
+                <!-- Content -->
+                <h2>This can be the Title</h2>
+                <p><a href="http://goo.gl/GGp2JE"><img src="http://html-tuts.com/images/infinity_300x250px.png"
+                            alt="" /></a></p>
+                <p>And here is some text to include</p>
+                <p><a href="#" class="closeButton">Close Ad</a></p>
+            </div>
+        </div>
+    </div>
+
 
     {{-- <div class="preloader">
         <div class="lds-ripple">
@@ -575,6 +598,27 @@
 
     <script src="assets/js/contact-form-script.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        function showPopUpBanner() {
+            $('.popUpBannerBox').fadeIn("2000");
+        }
+        setTimeout(showPopUpBanner, 3000);
+
+        $('.popUpBannerBox').click(function(e) {
+            if (!$(e.target).is('.popUpBannerContent, .popUpBannerContent *')) {
+                $('.popUpBannerBox').fadeOut("2000");
+                return false;
+            }
+        });
+
+        $('.closeButton').click(function() {
+            $('.popUpBannerBox').fadeOut("2000");
+            return false;
+        });
+
+    </script>
+
 </body>
 
 </html>
