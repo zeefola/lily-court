@@ -52,17 +52,17 @@
                             <div class="main-banner-content">
                                 <ul class="banner-list">
                                     <li>
-                                        <i class="flaticon-bath"></i>
+                                        <i><img src="/assets/img/bathroom.png" alt="bathroom"/></i>
                                         {{-- <sup>1</sup> --}}
                                         <span>Bathroom</span>
                                     </li>
                                     <li>
-                                        <i class="flaticon-fish-1"></i>
+                                        <i><img src="/assets/img/kitchen.png" alt="kitchen"/></i>
                                         {{-- <sup>2</sup> --}}
                                         <span>Kitchen</span>
                                     </li>
                                     <li>
-                                        <i class="flaticon-cow-1"></i>
+                                        <i><img src="/assets/img/toilet.png" alt="toilet"/></i>
                                         {{-- <sup>3</sup> --}}
                                         <span>Toilet</span>
                                     </li>
