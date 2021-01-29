@@ -3784,8 +3784,14 @@ body {
     display: none;
 }
 .popUpBannerInner {
-    max-width: 300px;
-    margin: 0 auto;
+    /* max-width: 300px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* margin: 0 auto; */
 }
 .popUpBannerContent {
     position: fixed;
