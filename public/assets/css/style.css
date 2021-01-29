@@ -2406,6 +2406,8 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 1.7rem !important;
+        color: white !important;
+        background: radial-gradient(black, #0000002e);
     }
     .main-banner-content p {
         color: white !important;
@@ -2426,6 +2428,8 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 2.5rem !important;
+        color: white !important;
+        background: radial-gradient(black, #0000002e);
     }
     .main-banner-content p {
         color: white !important;
