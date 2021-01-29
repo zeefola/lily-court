@@ -310,7 +310,7 @@
         <div class="container">
             <div class="section-title">
                 <h3>Drop us a message for any enquiry</h3>
-                <p>If you have any idea, we would love to hear about it.</p>
+                <p>If you have any enquiry, feel free to contact us.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -319,10 +319,10 @@
                             <h2>OUR <span>ADDRESS</span></h2>
                         </div>
 
-                        <div class="desc-text">
+                        {{-- <div class="desc-text">
                             <p>Lorem ipsum dolor sit amet, epicuri fierent mediocritat nam corrumpit consequat. At usu
                                 saepe possit</p>
-                        </div>
+                        </div> --}}
                         <!--Contact Info-->
                         <ul class="contact-info">
                             <li>
