@@ -177,8 +177,9 @@
                     <div class="about-content-area">
                         <div class="about-content">
                             <h3>Your convenience and security is our priority</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dorem ipsum dolor sit amet,
-                                consectetur adipiscing.</p>
+                            <p>Security of life, property, investment, future which are the top consideration in Home
+                                buying decision, at Lily Court we make it our top priority to give you a secured
+                                outstanding affordable luxury.</p>
                         </div>
                         <ul class="about-list">
                             <li>
