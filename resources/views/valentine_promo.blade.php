@@ -52,17 +52,17 @@
                             <div class="main-banner-content">
                                 <ul class="banner-list">
                                     <li>
-                                        <i><img src="/assets/img/bathroom.png" alt="bathroom"/></i>
+                                        <i><img src="/assets/img/bathroom.png" alt="bathroom" /></i>
                                         {{-- <sup>1</sup> --}}
                                         <span>Bathroom</span>
                                     </li>
                                     <li>
-                                        <i><img src="/assets/img/kitchen.png" alt="kitchen"/></i>
+                                        <i><img src="/assets/img/kitchen.png" alt="kitchen" /></i>
                                         {{-- <sup>2</sup> --}}
                                         <span>Kitchen</span>
                                     </li>
                                     <li>
-                                        <i><img src="/assets/img/toilet.png" alt="toilet"/></i>
+                                        <i><img src="/assets/img/toilet.png" alt="toilet" /></i>
                                         {{-- <sup>3</sup> --}}
                                         <span>Toilet</span>
                                     </li>
@@ -327,20 +327,20 @@
                         <ul class="contact-info">
                             <li>
                                 <span class="flaticon-location"></span>
-                                <h3>LOKATION</h3>
-                                <p>Mirpur New Bazar Road, Block-c, Dhaka-1210</p>
+                                <h3>LOCATION</h3>
+                                <p>{{ config('app.address') }}</p>
                             </li>
 
                             <li>
                                 <span class="flaticon-telephone"></span>
                                 <h3>PHONE</h3>
-                                <p>(732) 803-01 03, (880)172380129</p>
+                                <p>{{ config('app.telephone') }}, {{ config('app.telephone2') }}</p>
                             </li>
 
                             <li>
                                 <span class="flaticon-envelope"></span>
                                 <h3>MAIL</h3>
-                                <p>info@companyname.com</p>
+                                <p>{{ config('app.email') }}</p>
                             </li>
                         </ul>
                     </div>
