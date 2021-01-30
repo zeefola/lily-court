@@ -3802,3 +3802,18 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+
+
+/* Map */
+.gmap_canvas {
+    display: none;
+}
+@media (max-width: 567px) {
+    .mapouter{
+        display: none;
+    }
+    .gmap_canvas {
+        display: inline-block;
+        text-align: left;
+    }
+}

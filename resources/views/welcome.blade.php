@@ -786,24 +786,14 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center bounceInUp animated wow" data-wow-delay=".8s"
-                                style="border: 1px solid #000;">
+                                style="border: 1px solid #000; text-align: left;">
                                 <div class="mapouter">
-                                    <div class="gmap_canvas"><iframe width="847" height="470" id="gmap_canvas"
-                                            src="https://maps.google.com/maps?q=Opposite%20Pinacle%20Grammar%20School%20Akinde%20Road%2C%20Ajegunle%2C%20Alakuko-%20Lagos.&t=k&z=15&ie=UTF8&iwloc=&output=embed"
-                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6259239505857!2d3.2653714142670607!3d6.693168823025746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9731451443af%3A0x67d3356920a56c44!2sThe%20Pinnacle%20School!5e0!3m2!1sen!2sng!4v1611963121847!5m2!1sen!2sng" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+                                    <div class="gmap_canvas">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6259239505857!2d3.2653714142670607!3d6.693168823025746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9731451443af%3A0x67d3356920a56c44!2sThe%20Pinnacle%20School!5e0!3m2!1sen!2sng!4v1611963121847!5m2!1sen!2sng" width="350" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
                                     <style>
-                                        .mapouter {
-                                            text-align: right;
-                                            height: 470px;
-                                            width: 93%;
-                                        }
-
-                                        .gmap_canvas {
-                                            overflow: hidden;
-                                            background: none !important;
-                                            height: 470px;
-                                            width: 93%;
-                                        }
+                                        
+                                        
 
                                     </style>
                                 </div>
