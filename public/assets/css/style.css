@@ -2410,9 +2410,9 @@ h6 {
         font-weight: 700;
     }
     .main-banner-content p {
-        color: black !important;
+        color: white !important;
         font-size: 1rem;
-        font-weight: 700;
+        background: radial-gradient(black, #04040417);
     }
     .optional-btn {
         color: white !important;
@@ -2433,8 +2433,8 @@ h6 {
     }
     .main-banner-content p {
         font-size: 1.5rem;
-        color: black !important;
-        font-weight: 700;
+        color: white !important;
+        background: radial-gradient(black, #04040417);
     }
     .optional-btn {
         color: white !important;
