@@ -164,9 +164,8 @@
             <div class="popUpBannerContent">
                 <!-- Content -->
                 {{-- <h2>This can be the Title</h2> --}}
-                <p><a href="/valentine"><img src="images/lily_val.png" alt=" Theres an image here" /></a></p>
-                {{-- <p>And here is some text to include</p>
-                --}}
+                <p><a href="/valentine"><img src="images/lily_val.png" alt="Theres an image here" /></a></p>
+                {{-- <p>And here is some text to include</p> --}}
                 <p><a href="#" class="closeButton">Close Ad</a></p>
             </div>
         </div>

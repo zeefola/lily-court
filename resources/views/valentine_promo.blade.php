@@ -30,8 +30,7 @@
 
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Valentine Promo || {{ config('app.name') }}</title>
-    {{--
-    <link rel="icon" type="image/png" href="assets/img/favicon.png"> --}}
+    {{-- <link rel="icon" type="image/png" href="assets/img/favicon.png"> --}}
 </head>
 
 <body>
@@ -67,10 +66,10 @@
                                         <span>Toilet</span>
                                     </li>
                                 </ul>
-                                <h1>30% off on our luxurious apartments</h1>
+                                <h1>30% special valentine offer on our apartments</h1>
                                 <p>Your search for comfort and asset security is over. Get a 30% discount on our luxury
                                     and well detailed 2-3 bedroom apartment. You stand a chance to win an all-expense
-                                    paid night at Radisson Blu Hotel.</p>
+                                    paid night at Radisson Blu Hotel when you pay instantly.</p>
                                 <div class="banner-btn">
                                     <a class="page-scroll default-btn" href="#about">
                                         View Our Luxury
