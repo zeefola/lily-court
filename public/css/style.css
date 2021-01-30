@@ -3799,7 +3799,7 @@ body {
 }
 @media (max-width: 567px) {
     .popUpBannerContent img{
-        width: 250px;
+        width: 300px;
     }
 }
 .closeButton {
