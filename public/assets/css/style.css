@@ -2406,13 +2406,13 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 1.7rem !important;
-        color: white !important;
-        background: radial-gradient(black, #0000002e);
+        color: black !important;
+        font-weight: 700;
     }
     .main-banner-content p {
-        color: white !important;
-        font-size: 0.9rem;
-        background: radial-gradient(black, #0000002e);
+        color: black !important;
+        font-size: 1rem;
+        font-weight: 700;
     }
     .optional-btn {
         color: white !important;
@@ -2428,19 +2428,20 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 2.5rem !important;
-        color: white !important;
-        background: radial-gradient(black, #0000002e);
+        color: black !important;
+        font-weight: 700;
     }
     .main-banner-content p {
-        color: white !important;
         font-size: 1.5rem;
-        background: radial-gradient(black, #0000002e);
+        color: black !important;
+        font-weight: 700;
     }
     .optional-btn {
         color: white !important;
     }
     .main-banner-content .banner-list span{
-        color: white !important;
+        color: black !important;
+        font-weight: bold;
     }
 }
 .main-banner-content h1 {
