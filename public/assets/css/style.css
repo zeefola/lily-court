@@ -2405,9 +2405,8 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 1.7rem !important;
-        color: #d81b75 !important;
+        color: #e0e0e0 !important;
         text-shadow: 2px 2px black;
-
     }
     .main-banner-content p {
         color: white !important;
@@ -2430,7 +2429,7 @@ h6 {
         font-size: 2.5rem !important;
         color: #d81b75 !important;
         font-weight: 700;
-        text-shadow: 1px 5px black
+        text-shadow: 1px 5px black;
     }
     .main-banner-content p {
         font-size: 1.5rem;
@@ -2440,7 +2439,7 @@ h6 {
     .optional-btn {
         color: white !important;
     }
-    .main-banner-content .banner-list span{
+    .main-banner-content .banner-list span {
         color: black !important;
         font-weight: bold;
     }
@@ -9463,8 +9462,6 @@ blockquote::after,
     font-style: normal;
 }
 
-
-
 .sec-title {
     margin-bottom: 1rem;
 }
@@ -9504,7 +9501,8 @@ blockquote::after,
     margin-bottom: 1rem;
 }
 
-.contact-info ul, li {
+.contact-info ul,
+li {
     list-style: none;
     padding: 0px;
     margin: 0px;
