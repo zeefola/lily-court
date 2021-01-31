@@ -2405,7 +2405,9 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 1.7rem !important;
-        color: black !important;
+        color: white !important;
+        text-shadow: 2px 2px black;
+
     }
     .main-banner-content p {
         color: white !important;
@@ -2426,8 +2428,9 @@ h6 {
     }
     .main-banner-content h1 {
         font-size: 2.5rem !important;
-        color: black !important;
+        color: white !important;
         font-weight: 700;
+        text-shadow: 1px 5px black
     }
     .main-banner-content p {
         font-size: 1.5rem;
