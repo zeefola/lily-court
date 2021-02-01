@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>{{ config('app.name') }} || Affordable Housing in Lagos</title>
+    {!! SEO::generate() !!}
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -12,10 +12,8 @@
 
 
     <meta charset="UTF-8">
-    <meta name="description"
-        content="Get good and affordable housing at Lily Court... 2 - 3 Bedroom Flat Available, Akinde road off Lagos / Abeokuta expressway, Lagos.">
-    <meta name="keywords"
-        content="Real Estate in Lagos, Property Development in Lagos, Property Development in Nigeria, Property Financing in lagos, Real Estate Agent in Lagos, Real Estate Companies in Lagos, Real Estate in Nigeria, Real Estate, Apartments in lagos, Apartment n Lagos, 2 Bedroom apartment in Lagos, 3 Bedroom apartment in Lagos, 2 Bedroom apartment, 2 Bedroom apartment,Affordable Housing, Affordable housing in Lagos">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/lily_icon.ico" type="image/x-icon" />
