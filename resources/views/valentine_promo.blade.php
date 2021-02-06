@@ -68,7 +68,7 @@
                                         <span>Toilet</span>
                                     </li>
                                 </ul>
-                                <h1>30% special valentine offer on our apartments</h1>
+                                <h1>Win an all expense paid dinner this season in lily court valentine promo and  lot more prices</h1>
                                 <p>Your search for comfort and asset security is over. Get a 30% discount on our luxury
                                     and well detailed 2-3 bedroom apartment. You stand a chance to win an all expense
                                     paid dinner at Radisson Blu Hotel this season in Lily Court valentine promo and lot
