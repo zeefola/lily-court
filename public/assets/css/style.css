@@ -165,7 +165,9 @@ h6 {
     font-weight: 400;
 }
 .section-title h3 {
-    font-size: 38px;
+    font-size: 2.7rem;
+    color: #333333d9;
+    font-family: candara;
     margin: 10px 0 16px;
 }
 .section-title p {
@@ -2458,9 +2460,10 @@ h6 {
     }
 }
 .main-banner-content h1 {
-    font-size: 50px;
-    color: #333;
+    font-size: 2.7rem;
+    color: #333333d9;
     margin: 0 0 16px;
+    font-family: candara;
 }
 .main-banner-content p {
     color: #7a7e9a;
@@ -3338,8 +3341,11 @@ h6 {
 }
 .about-title-area .about-title h2 {
     margin-bottom: 0;
-    font-size: 38px;
-    font-weight: 700;
+    /* font-size: 38px;
+    font-weight: 700; */
+    font-size: 2.7rem;
+    color: #333333d9;
+    font-family: candara;
 }
 .about-title-area .about-text {
     padding-left: 35px;
@@ -3391,6 +3397,7 @@ h6 {
     font-size: 16px;
     margin: 10px 0 0;
     line-height: 22px;
+    color: #333333d9;
 }
 .about-slider.owl-theme .owl-nav {
     opacity: 0;
@@ -3459,6 +3466,7 @@ h6 {
 .about-content-area .about-content h3 {
     font-size: 25px;
     margin: 0 0 10px;
+    color: #333333d9;
 }
 .about-content-area .about-content p {
     margin: 0;
@@ -6239,7 +6247,10 @@ h6 {
     text-transform: uppercase;
 }
 .country-item .country-content h3 {
-    font-size: 38px;
+    /* font-size: 38px; */
+    font-size: 2.7rem;
+    color: #333333d9;
+    font-family: candara;
     margin: 10px 0 16px;
 }
 .country-item .country-list {
@@ -6275,6 +6286,7 @@ h6 {
 .country-item h3 {
     font-size: 25px;
     margin: 0;
+    color: #333333d9;
 }
 .country-item .country-btn {
     margin-top: 30px;
@@ -9491,11 +9503,11 @@ blockquote::after,
 .sec-title h2 {
     position: relative;
     font-size: 1.8rem;
-    font-weight: 800;
-    font-family: inherit;
+    color: #333333d9;
+    font-family: candara;
+    /* font-family: inherit; */
     line-height: 1.4em;
     text-transform: uppercase;
-    color: #1c1c1c;
 }
 
 .sec-title h2 span {
@@ -9542,12 +9554,14 @@ li {
 }
 
 .contact-info li h3 {
+    color: #333333d9;
+    font-family: candara;
     font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 0px;
-    color: #000000;
-    font-weight: 700;
-    font-family: inherit;
+    /* color: #000000; */
+    /* font-weight: 700;
+    font-family: inherit; */
     margin-bottom: 5px;
 }
 

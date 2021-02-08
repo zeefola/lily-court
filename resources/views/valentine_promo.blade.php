@@ -68,19 +68,17 @@
                                         <span>Toilet</span>
                                     </li>
                                 </ul>
-                                <h1>Win an all expense paid dinner this season in lily court valentine promo and  lot more prices</h1>
-                                <p>Your search for comfort and asset security is over. Get a 30% discount on our luxury
-                                    and well detailed 2-3 bedroom apartment. You stand a chance to win an all expense
-                                    paid dinner at Radisson Blu Hotel this season in Lily Court valentine promo and lot
-                                    more price when you pay instantly.</p>
+                                <h1>Win An All-Expense-Paid Dinner For Two In <b> A Lily Valentine </b> Promo</h1>
+                                <p>You stand a chance to win an all-expense-paid dinner with your loved one at the
+                                    Radisson Blu Hotel, Lagos on Valentine’s Day</p>
                                 <div class="banner-btn">
-                                    <a class="page-scroll default-btn" href="#about">
-                                        View Our Luxury
+                                    <a class="page-scroll default-btn" href="#services">
+                                        Click Here To Enter Contest
                                         <i class="flaticon-plus"></i>
                                         <span></span>
                                     </a>
-                                    <a class="page-scroll optional-btn" href="#services">
-                                        Contact US
+                                    <a class="page-scroll optional-btn" href="#about">
+                                        View Our Luxury
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -128,14 +126,14 @@
                     <div class="col-lg-7 col-md-12">
                         <div class="about-title">
                             <span>KNOW ABOUT US</span>
-                            <h2>Comfortable and high quality housing at an affordable price</h2>
+                            <h2>Comfortable And High Quality Housing At An Affordable Price</h2>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="about-text">
-                            <p>On a vision to be the for runner in providing and developing comfortable housing units to
-                                people of different classes, Lily Court has developed safe, health enhancement
-                                environment and high quality housing at an affordable price.</p>
+                            <p>With a vision to be the forerunner in providing and developing comfortable housing units
+                                to people of different classes, Lily Court has developed high-quality housing in a safe,
+                                eco-friendly, and healthy environment at an affordable price.</p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +151,8 @@
                                 <img src="assets/img/about/1.png" alt="image">
                             </div>
                             <div class="about-text">
-                                <span>Safe Environment</span>
-                                <h3>Under CCTV Camera Survellance 24/7</h3>
+                                <span>Safety and Security</span>
+                                <h3>Under 24/7 CCTV Surveillance</h3>
                             </div>
                         </div>
                         <div class="about-item">
@@ -163,7 +161,7 @@
                             </div>
                             <div class="about-text">
                                 <span>Well Lit Lawns</span>
-                                <h3>Well taken care of with anti-weed and anti-pest</h3>
+                                <h3>Regularly Maintained With Anti pest</h3>
                             </div>
                         </div>
                         <div class="about-item">
@@ -171,22 +169,22 @@
                                 <img src="assets/img/about/3.png" alt="image">
                             </div>
                             <div class="about-text">
-                                <span>Children Playground</span>
-                                <h3>Parks with fun activities for children</h3>
+                                <span>Playground</span>
+                                <h3>Fun Park With Activities For Children</h3>
                             </div>
                         </div>
                     </div>
                     <div class="about-content-area">
                         <div class="about-content">
-                            <h3>Your convenience and security is our priority</h3>
-                            <p>Security of life, property, investment, future which are the top consideration in Home
-                                buying decision, at Lily Court we make it our top priority to give you a secured
-                                outstanding affordable luxury.</p>
+                            <h3>Your Convenience And Security Is Our Priority</h3>
+                            <p>Security of life, property, investment, and future are top considerations in a home
+                                buying decision. At Lily Court, we are committed to giving you a secure, affordable, and
+                                quality luxury.</p>
                         </div>
                         <ul class="about-list">
                             <li>
                                 <i class="flaticon-check"></i>
-                                24/7 CCTV Survellance
+                                24/7 CCTV Surveillance
                             </li>
                             <li>
                                 <i class="flaticon-check"></i>
@@ -194,11 +192,11 @@
                             </li>
                             <li>
                                 <i class="flaticon-check"></i>
-                                Ample Parking Space
+                                Spacious Parking Space
                             </li>
                             <li>
                                 <i class="flaticon-check"></i>
-                                Built in Shopping Mall
+                                Built-In Shopping Mall
                             </li>
                         </ul>
                     </div>
@@ -216,11 +214,11 @@
                 <div class="col-lg-6">
                     <div class="country-item">
                         <div class="country-content">
-                            <span>SURROUNDED AREA</span>
-                            <h3>Neighbouring Environment</h3>
-                            <p>LilyCourt estate is built at places close to Mall (Shoprite Mall), School
-                                (7mins drive to Convenant University) and Airport (20mins drive to Muritala Mohammed
-                                Airport).</p>
+                            <span>SURROUNDING AREA</span>
+                            <h3>Neighboring Environment</h3>
+                            <p>Lily Court estate is a two-minute drive to Justrite Supermarket, a 7-minute drive to
+                                Covenant University, and a 20-minute drive to Muritala Mohammed International Airport.
+                            </p>
                         </div>
                         <h3>Nearby Places</h3>
                         <ul class="country-list">
@@ -312,8 +310,8 @@
     <section id="services" class="contact-area pb-100">
         <div class="container">
             <div class="section-title">
-                <h3>Drop us a message for any enquiry</h3>
-                <p>If you have any enquiry, feel free to contact us.</p>
+                <h3>Leave Us A Message</h3>
+                <p>Feel free to contact us for further inquiry</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
