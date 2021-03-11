@@ -16,7 +16,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/lily_icon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/global.css">
@@ -162,7 +162,7 @@
             <div class="popUpBannerContent">
                 <!-- Content -->
                 {{-- <h2>This can be the Title</h2> --}}
-                <p><a href="/valentine"><img src="images/lily_val.png" alt="Theres an image here" /></a></p>
+                <p><a href="/mothers-day-promo"><img src="images/lily_val.jpeg" alt="Theres an image here" height="450" width=""/></a></p>
                 {{-- <p>And here is some text to include</p> --}}
                 <p><a href="#" class="closeButton">Close Ad</a></p>
             </div>
