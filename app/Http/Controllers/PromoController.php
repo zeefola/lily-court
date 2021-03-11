@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Valentine;
+use App\Promo;
 use Mail;
 
-class ValentineController extends Controller
+class PromoController extends Controller
 {
-    public function contact(){
-        return view('valentine_promo');
+    public function promo(){
+        return view('mothers_day_promo');
     }
 
     public function contactConfirm(){
@@ -22,13 +22,13 @@ class ValentineController extends Controller
         ));
 
         /** Create an instance of the model and save data */
-        $valentine = new Valentine();
-        $valentine->name = request()->name;
-        $valentine->email = request()->email;
-        $valentine->phone = request()->phone;
-        $valentine->apartment_type = request()->apartment_type;
+        $Promo = new Promo();
+        $Promo->name = request()->name;
+        $Promo->email = request()->email;
+        $Promo->phone = request()->phone;
+        $Promo->apartment_type = request()->apartment_type;
 
-        $valentine->save();
+        $Promo->save();
 
 
         /** Store data into $data as an array and send mail to info */
@@ -39,11 +39,11 @@ class ValentineController extends Controller
          'phone' => request()->phone,
          'apartment_type' => request()->apartment_type,
          'admin_mail' => 'info@lilycourt.ng',
-         'created_at' => $valentine->created_at
+         'created_at' => $Promo->created_at
         );
 
-        Mail::send('emails.valentine_promo', $data, function($m) use($data){
-            $m->to($data['admin_mail'])->subject('Valentine Promo Contact');
+        Mail::send('emails.Promo_promo', $data, function($m) use($data){
+            $m->to($data['admin_mail'])->subject('Mothers Day Promo Contact');
         });
 
         /**return back */

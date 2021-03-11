@@ -32,7 +32,7 @@
 
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Valentine Promo || {{ config('app.name') }}</title>
-    {{-- <link rel="icon" type="image/png" href="assets/img/favicon.png"> --}}
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -51,7 +51,7 @@
                     <div class="row align-items-center" style="margin-top: -8rem;">
                         <div class="col-lg-6 col-md-12">
                             <div class="main-banner-content">
-                                <ul class="banner-list">
+                                <!-- <ul class="banner-list">
                                     <li>
                                         <i><img src="/assets/img/bathroom.png" alt="bathroom" /></i>
                                         {{-- <sup>1</sup> --}}
@@ -67,12 +67,12 @@
                                         {{-- <sup>3</sup> --}}
                                         <span>Toilet</span>
                                     </li>
-                                </ul>
-                                <h1>Win An All-Expense-Paid Dinner For Two In <b> A Lily Valentine </b> Promo</h1>
+                                </ul> -->
+                                <h1>Win An All-Expense-Paid <br> Dinner For Two In A <br> <strong> Lily Mother's Day Promo</strong></h1>
                                 <p>You stand a chance to win an all-expense-paid dinner with your loved one at the
                                     Radisson Blu Hotel, Lagos on Valentine’s Day</p>
                                 <div class="banner-btn">
-                                    <a class="page-scroll default-btn" href="#services">
+                                    <a class="page-scroll default-btn" href="#contact">
                                         Click Here To Enter Contest
                                         <i class="flaticon-plus"></i>
                                         <span></span>
@@ -126,7 +126,7 @@
                     <div class="col-lg-7 col-md-12">
                         <div class="about-title">
                             <span>KNOW ABOUT US</span>
-                            <h2>Comfortable And High Quality Housing At An Affordable Price</h2>
+                            <h2 style="color:#A10522">Comfortable And High Quality Housing At An Affordable Price</h2>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12">
@@ -215,7 +215,7 @@
                     <div class="country-item">
                         <div class="country-content">
                             <span>SURROUNDING AREA</span>
-                            <h3>Neighboring Environment</h3>
+                            <h3 style="color:#A10522">Neighboring Environment</h3>
                             <p>Lily Court estate is a two-minute drive to Justrite Supermarket, a 7-minute drive to
                                 Covenant University, and a 20-minute drive to Muritala Mohammed International Airport.
                             </p>
@@ -307,7 +307,7 @@
         </div>
     </section>
 
-    <section id="services" class="contact-area pb-100">
+    <section id="contact" class="contact-area pb-100">
         <div class="container">
             <div class="section-title">
                 <h3>Leave Us A Message</h3>
