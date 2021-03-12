@@ -42,7 +42,7 @@ class PromoController extends Controller
          'created_at' => $Promo->created_at
         );
 
-        Mail::send('emails.Promo_promo', $data, function($m) use($data){
+        Mail::send('emails.mothers_day_promo', $data, function($m) use($data){
             $m->to($data['admin_mail'])->subject('Mothers Day Promo Contact');
         });
 
