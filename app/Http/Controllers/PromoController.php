@@ -48,7 +48,7 @@ class PromoController extends Controller
 
         /**return back */
         session()->flash('success_report', 'Form Submitted Succesfully');
-        return $this->contact();
+        return back();
 
     }
 }
