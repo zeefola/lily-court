@@ -141,7 +141,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-image">
-                        <img src="assets/img/about/about-2.jpg" alt="image">
+                        <img src="assets/img/about/about-2.png" alt="image">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -208,7 +208,7 @@
         </div>
     </section>
 
-    <section class="country-area ptb-100">
+    <!-- <section class="country-area ptb-100">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -305,7 +305,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="contact" class="contact-area pb-100">
         <div class="container">
@@ -320,10 +320,6 @@
                             <h2>OUR <span>ADDRESS</span></h2>
                         </div>
 
-                        {{-- <div class="desc-text">
-                            <p>Lorem ipsum dolor sit amet, epicuri fierent mediocritat nam corrumpit consequat. At usu
-                                saepe possit</p>
-                        </div> --}}
                         <!--Contact Info-->
                         <ul class="contact-info">
                             <li>
@@ -537,8 +533,7 @@
             </div>
         </div>
     </section>
-
-
+    
     <div class="go-top">
         <i class="fas fa-chevron-up"></i>
         <i class="fas fa-chevron-up"></i>
