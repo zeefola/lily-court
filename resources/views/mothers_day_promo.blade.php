@@ -48,7 +48,7 @@
         <div class="d-table">
             <div class="d-table-cell">
                 <div class="container-fluid">
-                    <div class="row align-items-center" style="margin-top: -8rem;">
+                    <div class="row align-items-center section-welcome" style="margin-top: -9rem;">
                         <div class="col-lg-6 col-md-12">
                             <div class="main-banner-content">
                                 <!-- <ul class="banner-list">
@@ -68,12 +68,12 @@
                                         <span>Toilet</span>
                                     </li>
                                 </ul> -->
-                                <h1>Win An All-Expense-Paid <br> Dinner For Two In A <br> <strong> Lily Mother's Day Promo</strong></h1>
-                                <p>You stand a chance to win an all-expense-paid dinner with your loved one at the
-                                    Radisson Blu Hotel, Lagos on Valentine’s Day</p>
+                                <h1>Get 50% Discount When <br> You Buy A 3-Bedroom Apartment In <br> <strong> The Lily Court Mother’s Day Promo</strong></h1>
+                                <p>Stand a chance to get up to a 50% discount when you buy any 
+                                of our 3-bedroom apartments in our Mother’s Day Promo. </p>
                                 <div class="banner-btn">
                                     <a class="page-scroll default-btn" href="#contact">
-                                        Click Here To Enter Contest
+                                        Click Here To Buy
                                         <i class="flaticon-plus"></i>
                                         <span></span>
                                     </a>
@@ -87,14 +87,14 @@
                         <div class="col-lg-6 col-md-12 p-0">
                             <div class="banner-image">
                                 <img src="assets/img/home-one/main-banner.png" alt="image">
-                                <div class="shape-area">
+                                <!-- <div class="shape-area">
                                     <div class="creative-shape">
                                         <img src="assets/img/home-one/shape.png" alt="main-image">
                                     </div>
                                     <div class="creative-shape-two">
                                         <img src="assets/img/home-one/shape.png" alt="main-image">
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
     </div>
 
 
-    <section id="about" class="about-section ptb-100">
+    <section id="about" class="about-section ptb-100 ">
         <div class="container">
             <div class="about-title-area">
                 <div class="row">
@@ -148,7 +148,7 @@
                     <div class="about-slider owl-carousel owl-theme">
                         <div class="about-item">
                             <div class="about-slide-image">
-                                <img src="assets/img/about/1.png" alt="image">
+                                <img src="assets/img/about/ss.jpg" alt="image">
                             </div>
                             <div class="about-text">
                                 <span>Safety and Security</span>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="about-item">
                             <div class="about-slide-image">
-                                <img src="assets/img/about/2.png" alt="image">
+                                <img src="assets/img/about/ll.jpg" alt="image">
                             </div>
                             <div class="about-text">
                                 <span>Well Lit Lawns</span>
@@ -166,7 +166,7 @@
                         </div>
                         <div class="about-item">
                             <div class="about-slide-image">
-                                <img src="assets/img/about/3.png" alt="image">
+                                <img src="assets/img/about/pg.jpg" alt="image">
                             </div>
                             <div class="about-text">
                                 <span>Playground</span>
