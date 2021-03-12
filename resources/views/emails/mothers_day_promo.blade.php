@@ -198,6 +198,7 @@
                                                     style="line-height: 1.2; font-size: 12px; font-family: 'Cabin', Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #FFFFFF; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 26px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Cabin, Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 31px; margin: 0;">
+<<<<<<< HEAD
                                                         <span style="font-size: 26px;">Mother's Day Contact Form
                                                             Notification</span>
                                                     </p>
