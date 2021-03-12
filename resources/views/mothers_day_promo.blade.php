@@ -349,7 +349,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     @includeIf('layouts.error_template')
                     <div class="contact-form">
-                        <form id="contactForm" action="/valentine-contact" method="post">
+                        <form id="contactForm" action="/mothers-day-promo-contact" method="post">
                             {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
