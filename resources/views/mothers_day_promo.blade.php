@@ -48,7 +48,7 @@
         <div class="d-table">
             <div class="d-table-cell">
                 <div class="container-fluid">
-                    <div class="row align-items-center section-welcome" style="margin-top: -9rem;">
+                    <div class="row align-items-center section-welcome" style="margin-top: -8rem;">
                         <div class="col-lg-6 col-md-12">
                             <div class="main-banner-content">
                                 <!-- <ul class="banner-list">
@@ -141,7 +141,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-image">
-                        <img src="assets/img/about/about-2.png" alt="image">
+                        <img src="assets/img/about/about-2.jpg" alt="image">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -533,7 +533,7 @@
             </div>
         </div>
     </section>
-    
+
     <div class="go-top">
         <i class="fas fa-chevron-up"></i>
         <i class="fas fa-chevron-up"></i>
