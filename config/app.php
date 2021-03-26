@@ -19,6 +19,7 @@ return [
     'facebook' => 'https://www.facebook.com/lilycourtng',
     'telephone' => '(+234) 9080829417',
     'telephone2' => '(+234) 7017370898',
+    'telephone3' => '(+234) 8060755883',
     'email' => 'info@lilycourt.ng',
     'short_description' => 'We are a consortium of professionals ( Local and Foreign) formed to provide Construction Engineering and Property Development Solutions. We have taken a leading role in providing housing solutions', 
     'opening_hours'=> 'Mon-Sat: 9:00 - 18:00',
