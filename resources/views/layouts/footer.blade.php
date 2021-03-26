@@ -77,7 +77,7 @@
                                 <li><i class="fa fa-li fa-map-marker"></i>{{config('app.address')}}</li>
                                 <li><i class="fa fa-li fa-phone"></i>{{config('app.telephone')}}, {{config('app.telephone2')}} </li>
                                 <li><i class="fa fa-li fa-envelope"></i>{{config('app.email')}}</li>
-                                <li><i class="fa fa-li fa-mobile"></i>{{config('app.telephone2')}}</li>
+                                <li><i class="fa fa-li fa-mobile"></i>{{config('app.telephone3')}}</li>
                                 <li><i class="fa fa-li fa-clock-o"></i>{{config('app.opening_hours')}}</li>
                             </ul>
                         </div>
