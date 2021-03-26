@@ -162,7 +162,7 @@
             <div class="popUpBannerContent">
                 <!-- Content -->
                 {{-- <h2>This can be the Title</h2> --}}
-                <p><a href="/mothers-day-promo"><img src="images/lily_val.jpeg" alt="Theres an image here"/></a></p>
+                <p><a href="/easter-promo"><img src="images/lily_val.jpeg" alt="Theres an image here"/></a></p>
                 {{-- <p>And here is some text to include</p> --}}
                 <p><a href="#" class="closeButton">Close Ad</a></p>
             </div>

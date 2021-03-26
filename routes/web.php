@@ -26,5 +26,5 @@ Route::get('/appointmentForm',['uses'=>'formSubmissionController@appointmentForm
 Route::any('/lilycourt/users/register',['uses'=>'calvaryController@users_register']);
 
 /** Mother's Day Promo */
-Route::get('/mothers-day-promo', 'promoController@promo');
-Route::post('/mothers-day-promo-contact', 'promoController@contactConfirm');
+Route::get('/easter-promo', 'promoController@promo');
+Route::post('/easter-promo-contact', 'promoController@contactConfirm');

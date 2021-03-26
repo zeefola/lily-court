@@ -198,7 +198,7 @@
                                                     style="line-height: 1.2; font-size: 12px; font-family: 'Cabin', Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #FFFFFF; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 26px; line-height: 1.2; text-align: center; word-break: break-word; font-family: Cabin, Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 31px; margin: 0;">
-                                                        <span style="font-size: 26px;">Mother's Day Promo Contact Form
+                                                        <span style="font-size: 26px;">Easter Promo Contact Form
                                                             Notification</span>
                                                     </p>
                                                 </div>
@@ -248,7 +248,7 @@
                                                     <p
                                                         style="line-height: 1.5; word-break: break-word; font-size: 14px; mso-line-height-alt: 21px; margin: 0;">
                                                         <span style="font-size: 14px;">This is to notify you that
-                                                            someone just fill the Mother's Day Promo Contact Form.</span>
+                                                            someone just fill the Easter Promo Contact Form.</span>
                                                     </p>
                                                     <p
                                                         style="line-height: 1.5; word-break: break-word; mso-line-height-alt: 18px; margin: 0;">

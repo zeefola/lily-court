@@ -68,9 +68,9 @@
                                         <span>Toilet</span>
                                     </li>
                                 </ul> -->
-                                <h1>Get 50% Discount When <br> You Buy A 3-Bedroom Apartment In <br> <strong> The Lily Court Mother’s Day Promo</strong></h1>
-                                <p>Stand a chance to get up to a 50% discount when you buy any 
-                                of our 3-bedroom apartments in our Mother’s Day Promo. </p>
+                                <h1>Get A Whooping 50% Discount When You Buy A 3-Bedroom <br> Apartment In The <br> <strong> Lily Court Easter Promo.</strong></h1>
+                                <p>Take Advantage Of This Promo To Get An Amazing 50% Discount Off Any Of Our 3-Bedroom
+                                Apartments At Lily Court This Easter. </p>
                                 <div class="banner-btn">
                                     <a class="page-scroll default-btn" href="#contact">
                                         Click Here To Buy
@@ -345,7 +345,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     @includeIf('layouts.error_template')
                     <div class="contact-form">
-                        <form id="contactForm" action="/mothers-day-promo-contact" method="post">
+                        <form id="contactForm" action="/easter-promo-contact" method="post">
                             {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
