@@ -331,7 +331,7 @@
                             <li>
                                 <span class="flaticon-telephone"></span>
                                 <h3>PHONE</h3>
-                                <p>{{ config('app.telephone') }}, {{ config('app.telephone2') }}</p>
+                                <p>{{ config('app.telephone') }}, {{ config('app.telephone2') }}, <br> {{ config('app.telephone3') }}</p>
                             </li>
 
                             <li>
