@@ -9,7 +9,7 @@ use Mail;
 class PromoController extends Controller
 {
     public function promo(){
-        return view('mothers_day_promo');
+        return view('easter_promo');
     }
 
     public function contactConfirm(){
@@ -42,8 +42,8 @@ class PromoController extends Controller
          'created_at' => $Promo->created_at
         );
 
-        Mail::send('emails.mothers_day_promo', $data, function($m) use($data){
-            $m->to($data['admin_mail'])->subject('Mothers Day Promo Contact');
+        Mail::send('emails.easter_promo', $data, function($m) use($data){
+            $m->to($data['admin_mail'])->subject('Easter Promo Contact');
         });
 
         /**return back */
