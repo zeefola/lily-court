@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <title>Valentine Promo || {{ config('app.name') }}</title>
+    <title>Easter Promo || {{ config('app.name') }}</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 </head>
 
