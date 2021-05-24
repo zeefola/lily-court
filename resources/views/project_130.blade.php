@@ -31,7 +31,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <title>Easter Promo || {{ config('app.name') }}</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="stylesheet" href="assets/responsive.css">
+
+    <title>Project 130 || {{ config('app.name') }}</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 </head>
 
@@ -117,7 +122,6 @@
             <img src="assets/img/home-one/5.svg" alt="image">
         </div>
     </div>
-
 
     <section id="about" class="about-section ptb-100 ">
         <div class="container">
