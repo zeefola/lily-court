@@ -39,7 +39,7 @@ class ProjectController extends Controller
          'email' => request()->email,
          'phone' => request()->phone,
          'apartment_type' => request()->apartment_type,
-         'admin_mail' => 'promiseezema11@gmail.com',
+         'admin_mail' => 'info@lilycourt.ng',
          'created_at' => $Project->created_at
         );
 
