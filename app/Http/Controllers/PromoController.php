@@ -8,8 +8,8 @@ use Mail;
 
 class PromoController extends Controller
 {
-    public function promo(){
-        return view('easter_promo');
+    public function project_130(){
+        return view('project_130');
     }
 
     public function contactConfirm(){
@@ -33,18 +33,18 @@ class PromoController extends Controller
 
         /** Store data into $data as an array and send mail to info */
 
-        $data = array(
-         'name' => request()->name,
-         'email' => request()->email,
-         'phone' => request()->phone,
-         'apartment_type' => request()->apartment_type,
-         'admin_mail' => 'info@lilycourt.ng',
-         'created_at' => $Promo->created_at
-        );
+        // $data = array(
+        //  'name' => request()->name,
+        //  'email' => request()->email,
+        //  'phone' => request()->phone,
+        //  'apartment_type' => request()->apartment_type,
+        //  'admin_mail' => 'info@lilycourt.ng',
+        //  'created_at' => $Promo->created_at
+        // );
 
-        Mail::send('emails.easter_promo', $data, function($m) use($data){
-            $m->to($data['admin_mail'])->subject('Easter Promo Contact');
-        });
+        // Mail::send('emails.easter_promo', $data, function($m) use($data){
+        //     $m->to($data['admin_mail'])->subject('Easter Promo Contact');
+        // });
 
         /**return back */
         session()->flash('success_report', 'Form Submitted Succesfully');

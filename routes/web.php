@@ -19,12 +19,13 @@ Route::get('/', function () {
 
 ###### homepageController
 Route::get('/',['uses'=>'homepageController@welcome']);
+Route::get('/tour',['uses'=>'homepageController@tour']);
 Route::get('/applicationForm',['uses'=>'formSubmissionController@applicationForm']);
 Route::get('/messageForm',['uses'=>'formSubmissionController@messageForm']);
 Route::get('/appointmentForm',['uses'=>'formSubmissionController@appointmentForm']);
 
 Route::any('/lilycourt/users/register',['uses'=>'calvaryController@users_register']);
 
-/** Mother's Day Promo */
-Route::get('/easter-promo', 'promoController@promo');
-Route::post('/easter-promo-contact', 'promoController@contactConfirm');
+/** Project 130 */
+Route::get('/project-130', 'ProjectController@project_130');
+Route::post('/project-130-contact', 'ProjectController@contactConfirm');
