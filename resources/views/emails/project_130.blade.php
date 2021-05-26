@@ -385,7 +385,7 @@
                                                     style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;">
-                                                        {{ $name }}
+                                                        {{ $visitor_name }}
                                                     </p>
                                                 </div>
                                             </div>
@@ -447,7 +447,7 @@
                                                     style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;">
-                                                        {{ $email }}
+                                                        {{ $visitor_email }}
                                                     </p>
                                                 </div>
                                             </div>
@@ -510,7 +510,7 @@
                                                     style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;">
-                                                        {{ $phone }}
+                                                        {{ $telephone }}
                                                     </p>
                                                 </div>
                                             </div>
@@ -546,7 +546,7 @@
                                                     style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;">
-                                                        <span style="color: #ffffff;">Apartment Type</span>
+                                                        <span style="color: #ffffff;">Message</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -572,7 +572,7 @@
                                                     style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;">
-                                                        {{ $apartment_type }}
+                                                        {{ $visitor_message }}
                                                     </p>
                                                 </div>
                                             </div>

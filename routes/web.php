@@ -28,4 +28,5 @@ Route::any('/lilycourt/users/register',['uses'=>'calvaryController@users_registe
 
 /** Project 130 */
 Route::get('/project-130', 'ProjectController@project_130');
+Route::post('/project_130_contact', 'ProjectController@projectContactConfirm');
 Route::post('/project-130-contact', 'ProjectController@contactConfirm');

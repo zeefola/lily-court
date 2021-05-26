@@ -347,9 +347,8 @@
                             style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
                             With a vision to be the forerunner in providing and developing comfortable housing units to
                             people of different
-                            classes, Lily Court has developed high-quality housing in a safe, eco-friendly, and healthy
-                            environment
-                            at an affordable price.
+                            classes, Lily Court has developed high-quality housing in a safe and eco-friendly
+                            environment at an affordable price.
                         </p>
                         <br>
                         <!-- Skill Bars -->
@@ -390,9 +389,9 @@
                     <div class="col-sm-5">
                         <p class="text-justify bounceInLeft animated wow animated" data-wow-delay=".8s"
                             style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
-                            Prime Nest Limited partnering with Federal Mortgage Bank offers you a 3 Bedroom apartment on
-                            a "Rent to Own" payment ownership scheme.
-                            Lily Court is an elegant and affordable estate in a built up environment at Alakuko area of
+                            Prime Nest Limited, in partnership with Federal Mortgage Bank, offers a 3-bedroom apartment
+                            on a RENT-TO-OWN payment ownership scheme.
+                            Lily Court is an elegant and affordable residential estate in a developed area in Alakuko,
                             Lagos.
                         </p>
                     </div>
@@ -400,6 +399,7 @@
             </div>
         </div>
     </section>
+
     <section class="no-padding">
         <div class="tour">
             <div class="container-fluid">
@@ -414,13 +414,13 @@
                             </div> -->
                             <div class="caption-box">
                                 <div class="container">
-                                    <div class="text-center bounceInRight animated wow animated"
-                                        data-wow-delay=".8s"
+                                    <div class="text-center bounceInRight animated wow animated" data-wow-delay=".8s"
                                         style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;">
-                                        
-                                        <h3>Are you earning a N150,000 monthly or combined monthly income of N200,000 with your spouse then you can 
-                                            own a 3 bedroom apartment at Lily court with our Rent -to - Own  scheme. 
-                                            Kindly get in touch with us.</h3>
+
+                                        <h3>ARE YOU EARNING N150K MONTHLY? OR A COMBINED MONTHLY INCOME OF N200K WITH
+                                            YOUR SPOUSE?
+                                            THEN YOU CAN OWN A 3-BEDROOM APARTMENT AT LILY COURT IN OUR RENT-TO-OWN
+                                            SCHEME. </h3>
                                     </div>
                                 </div>
                             </div>
@@ -430,11 +430,12 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="contact-area pb-100">
+
+    <!-- <section id="contact" class="contact-area pb-100">
         <div class="container">
             <div class="section-title">
-                <h3>Leave Us A Message</h3>
-                <p>Feel free to contact us for further inquiry</p>
+                <h3>Schedule An Inspection</h3>
+                <p>Contact us for further inquiry</p>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -477,7 +478,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12"style="margin-bottom: 1rem;">
+                                <div class="col-lg-12" style="margin-bottom: 1rem;">
                                     <div class="send-btn">
                                         <button type="submit" class="default-btn">
                                             Send Message
@@ -493,7 +494,50 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <!-- HOME: About Agent Start -->
+    <section id="contact" class="contact-section">
+        <!--Map Container-->
+        <div class="container">
+            <div class="row no-padding footer-agent-contact">
+                <div class="col-12 bounceInRight animated wow" data-wow-delay=".7s">
+                    <div class="footer-reachout" id="messageBlock">
+                        <h6>SCHEDULE AN INSPECTION </h6>
+                        <p>CONTACT US FOR FURTHER INQUIRY</p>
+                        <br />
+                        @includeIf('layouts.error_template')
+                        <form action="/project_130_contact" method="post">
+                            {{ csrf_field() }}
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <input type="text" name="visitor_name" placeholder="Enter name"
+                                        required class="form-control">
+                                </div>
+                                <div class="col-xs-12">
+                                    <input type="email" name="visitor_email" placeholder="Enter email"
+                                        required class="form-control">
+                                </div>
+                                <div class="col-xs-12">
+                                    <input type="text" name="telephone" placeholder="Enter telephone"
+                                        required class="form-control">
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <textarea name="visitor_message" placeholder="Message" required
+                                        class="form-control"></textarea>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 text-right">
+                                    <button type="submit" style="border: 2px solid white;"class="btn btn-blue-white"> Submit
+                                        <i class="fa fa-send"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container close -->
     </section>
+    
     <div class="clearfix"></div>
 
     <footer>
