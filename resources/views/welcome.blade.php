@@ -516,6 +516,8 @@
                                         role="tab" data-toggle="tab">Bathroom</a></li>
                                 <li role="presentation"><a href="#galleryswimming" aria-controls="galleryswimming"
                                         role="tab" data-toggle="tab">Doors / Corridor</a></li>
+                                <li role="presentation"><a href="#galleryceremony" aria-controls="galleryceremony"
+                                        role="tab" data-toggle="tab">Handover Ceremony</a></li>
                             </ul>
                         </div>
                     </div>
@@ -603,34 +605,6 @@
                                             <!--</div>-->
                                         </div>
                                     </div>
-                                    <!--<div role="tabpanel" class="tab-pane" id="gallerykitchen">-->
-                                    <!--    <div class="row no-gutters gallery-images">-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/17.jpg" class="lightbox-bedrooms"><img src="images/gallery/17.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/18.jpg" class="lightbox-bedrooms"><img src="images/gallery/18.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/19.jpg" class="lightbox-bedrooms"><img src="images/gallery/19.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/20.jpg" class="lightbox-bedrooms"><img src="images/gallery/20.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/21.jpg" class="lightbox-bedrooms"><img src="images/gallery/21.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/22.jpg" class="lightbox-bedrooms"><img src="images/gallery/22.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/23.jpg" class="lightbox-bedrooms"><img src="images/gallery/23.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--        <div class="col-xs-6 col-sm-3">-->
-                                    <!--            <a href="images/gallery/24.jpg" class="lightbox-bedrooms"><img src="images/gallery/24.jpg" alt="Image"></a>-->
-                                    <!--        </div>-->
-                                    <!--    </div>-->
-                                    <!--</div>-->
                                     <div role="tabpanel" class="tab-pane" id="gallerybathroom">
                                         <div class="row no-gutters gallery-images">
                                             <div class="col-xs-6 col-sm-3">
@@ -693,6 +667,34 @@
                                             <!--<div class="col-xs-6 col-sm-3">-->
                                             <!--    <a href="images/gallery/40.jpg" class="lightbox-bedrooms"><img src="images/gallery/40.jpg" alt="Image"></a>-->
                                             <!--</div>-->
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="galleryceremony">
+                                        <div class="row no-gutters gallery-images">
+                                            <div class="col-xs-6 col-sm-3">
+                                                <a href="images/gallery/IMG_4238.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4238.jpg" alt="Image"></a>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-3">
+                                               <a href="images/gallery/IMG_4242.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4242.jpg" alt="Image"></a>
+                                           </div>
+                                           <div class="col-xs-6 col-sm-3">
+                                               <a href="images/gallery/IMG_4261.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4261.jpg" alt="Image"></a>
+                                           </div>
+                                           <div class="col-xs-6 col-sm-3">
+                                               <a href="images/gallery/IMG_4283.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4283.jpg" alt="Image"></a>
+                                           </div>
+                                           <div class="col-xs-6 col-sm-3">
+                                               <a href="images/gallery/IMG_4289.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4289.jpg" alt="Image"></a>
+                                           </div>
+                                           <div class="col-xs-6 col-sm-3">
+                                               <a href="images/gallery/IMG_4295.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4332.jpg" alt="Image"></a>
+                                           </div>
+                                           <div class="col-xs-6 col-sm-3">
+                                               <a href="images/gallery/IMG_4317.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4317.jpg" alt="Image"></a>
+                                           </div>
+                                            <div class="col-xs-6 col-sm-3">
+                                              <a href="images/gallery/IMG_4332.jpg" class="lightbox-bedrooms"><img src="images/gallery/IMG_4332.jpg" alt="Image"></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
