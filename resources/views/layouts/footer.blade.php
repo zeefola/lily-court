@@ -50,6 +50,7 @@
                             <li><a href="{{config('app.instagram')}}" target='_blank'><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
+                    
                     <div class="col-xs-12 col-sm-4">
                         <h3>navigation <i></i></h3>
                         <ul class="list clearfix">

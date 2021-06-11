@@ -4,6 +4,8 @@
         <ul class="top-banner">
             <li><img src="images/sliders/slider4.png" alt="#" />
             </li>
+            <li><img src="images/sliders/slider6.png" alt="#" />
+            </li>
             <li><img src="images/banner1.jpg" alt="#" />
             </li>
             <li><img src="images/img-banner-2.jpg" alt="#" />
@@ -16,6 +18,8 @@
             </li>
             <li><img src="images/sliders/slider3.png" alt="#" />
             </li>
+            <li><img src="images/sliders/slider7.png" alt="#" />
+            </li>
         </ul>
     </div>
     <div class="detail-content">
@@ -23,12 +27,14 @@
             <div class="detail">
                 <div class="top-row">
                     <strong class="text-uppercase">Lilly Court Interior</strong>
+                    <strong class="text-uppercase"> Proud Landlords </strong>
                     <strong class="text-uppercase">Lilly Court Building</strong>
                     <strong class="text-uppercase">Lilly Court Front View</strong>
                     <strong class="text-uppercase">Lilly Court Surrounding View</strong>
                     <strong class="text-uppercase">Lilly Court Side View</strong>
                     <strong class="text-uppercase">Lilly Court Aerial View</strong>
                     <strong class="text-uppercase"> Lilly Court Interior </strong>
+                    <strong class="text-uppercase"> Lily Court Phase 1 is Fast Selling </strong>
                     <div class="direction-arrrow">
                         <a href="javascript:;" class="prv"></a>
                         <a href="javascript:;" class="next"></a>
@@ -41,6 +47,12 @@
                             screeding, properly illumited rooms with LED bulbs(Light emitting Diode), polished woods for
                             doors, Conduit Electrical and Mechanical installation, well spaced rooms.</p>
                         <!--<a href="projects-details.html" class="btn btn-blue-orange">VIEW More</a>-->
+                    </li>
+                    <li class="inner-bottom-sec">
+                        <h2>Proud Landlords</h2>
+                        <p>Meet the latest Lagos landlords! You too can become one today.</p>
+                        <!--<a href="projects-details.html" class="btn btn-blue-orange">VIEW More</a>-->
+
                     </li>
                     <li class="inner-bottom-sec">
                         <h2>Building Architectural Design</h2>
@@ -68,13 +80,16 @@
                         <p></p>
                         <!--<a href="projects-details.html" class="btn btn-blue-orange">VIEW More</a>-->
                     </li>
-
-
                     <li class="inner-bottom-sec">
                         <h2>Well Furnished Interior</h2>
                         <p>Kitchen and Wardrobe Cabinets, quality screeding of ceilings, well painted walls with initial
                             screeding, properly illumited rooms with LED bulbs(Light emitting Diode), polished woods for
                             doors, Conduit Electrical and Mechanical installation, well spaced rooms.</p>
+                        <!--<a href="projects-details.html" class="btn btn-blue-orange">VIEW More</a>-->
+                    </li>
+                    <li class="inner-bottom-sec">
+                        <h2>Lily Court Phase 1 is Fast Selling</h2>
+                        <p>Our 2 and 3 bedroom apartments in Lily Court Phase 1 have been commissioned by FMBN and are fast selling out.</p>
                         <!--<a href="projects-details.html" class="btn btn-blue-orange">VIEW More</a>-->
 
                     </li>
